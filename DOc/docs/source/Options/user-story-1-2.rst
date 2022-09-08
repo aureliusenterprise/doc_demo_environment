@@ -66,17 +66,17 @@ these elements:
 .. image:: imgs-user-story2/third.jpg 
 
 
-**1. – Name and type: Of the dataset**
+``**1. – Name and type: Of the dataset**``
 
-**2. – Hierarchy: Where is located inside the system**
+``**2. – Hierarchy: Where is located inside the system**``
 
-**3. – Description: Gives you information about this dataset**
+``**3. – Description: Gives you information about this dataset**``
 
-**4. – Summary of page structure: Quick view of all the elements of the page**
+``**4. – Summary of page structure: Quick view of all the elements of the page**``
 
-**5. - Lineage model: If is available or not**
+``**5. - Lineage model: If is available or not**``
 
-**6. - Button: to navigate for the structure of the page**
+``**6. - Button: to navigate for the structure of the page**``
 
 To find the Lineage model:
 
@@ -129,12 +129,12 @@ applications we are tracking the governance information.
 
 **Benefits**
 
-1. **1 – Clear information about where the data is stored**
+**1 – Clear information about where the data is stored**
 
-2. **– See the entire data flow step by step**
+**2 – See the entire data flow step by step**
 
-3. **– How this data is being used**
+**3 – How this data is being used**
 
-4. **- Track sensitive information**
+**4 - Track sensitive information**
 
-5. **– Improve Data compliance**
+**5 – Improve Data compliance**
