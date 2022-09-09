@@ -20,9 +20,9 @@ Furthermore, for each of the User stories you will find:
 
 * :ref:`Users can find data and related context fast<userStory1>`
 
-* :ref:`Other user Story 1<userStory2>`
+* :ref:`Managing data pipelines with full lineage<userStory2>`
 
-* :ref:`Other user Story 2<userStory3>`
+* :ref:`Other user Story 3<userStory3>`
 
 
 
