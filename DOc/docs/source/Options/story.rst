@@ -22,7 +22,7 @@ Furthermore, for each of the User stories you will find:
 
 * :ref:`Managing data pipelines with full lineage<userStory2>`
 
-* :ref:`Other user Story 3<userStory3>`
+
 
 
 
