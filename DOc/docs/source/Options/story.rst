@@ -38,5 +38,5 @@ Furthermore, for each of the User stories you will find:
 
       user-story-1
       user-story-1-2
-      user-story-1-3
+    
     
