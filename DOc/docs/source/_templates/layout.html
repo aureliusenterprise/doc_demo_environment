@@ -1,13 +1,4 @@
 {% extends "!layout.html" %}
-  {% block footer %} {{ super() }}
-
-  <style>
-    /* Sidebar header (and topbar for mobile) 
-    .wy-side-nav-search, .wy-nav-top 
-    /* Sidebar 
-    .wy-nav-side 
-      */
-    
-    
-  </style>
+{% block extrahead %}
+    <link href="{{ pathto("_static/style.css", True) }}" rel="stylesheet" type="text/css">
 {% endblock %}
