@@ -1,8 +1,7 @@
 How to use Aurelius Atlas Data Demo Environment
 ===============================================
 
-CAMBIOS
--------
+
 Thank you for your interest in Aurelius Atlas Data Governance solution,
 powered by Apache Atlas.
 
