@@ -54,11 +54,11 @@ Step by step guide
 
 
 
-**1 – The context that you are working on.**
+``1 – The context that you are working on.``
 
-**2- Info icon, that gives you information about the context.**
+``2- Info icon, that gives you information about the context.``
 
-**3 – Search bar for looking for the meaning of data**
+``3 – Search bar for looking for the meaning of data.``
 
 
 By hitting the search icon, you will get a list of possible concepts.
@@ -69,9 +69,9 @@ As you can see in the screen shoot below:
 
 
 
-**1 – Filter the search by type, domain, entity etc.**
+``1 – Filter the search by type, domain, entity etc.``
 
-**2 – Results of the search**
+``2 – Results of the search.``
 
    The data engineer is not looking for specific fields, but for
    entities representing employees, thus she filters those results on
@@ -99,17 +99,17 @@ below.
 .. image:: imgs-user-story/fifth.jpg 
 
 
-**1. Name and type of entity: Gives information about the entity and what type it is**
+``1. Name and type of entity: Gives information about the entity and what type it is``
 
-**2. Business hierarchy: Shows where it is inside the domain**
+``2. Business hierarchy: Shows where it is inside the domain``
 
-**3. Description: Provide information about the entity**
+``3. Description: Provide information about the entity``
 
-**4. People that oversee this data: People that oversee this data**
+``4. People that oversee this data: People that oversee this data``
 
-**5. Summary of page structure: Quick view of all the elements of the page**
+``5. Summary of page structure: Quick view of all the elements of the page``
 
-**6. Button: to navigate for the structure of the page**
+``6. Button: to navigate for the structure of the page``
 
 
 
@@ -126,9 +126,9 @@ the data is technically stored, it’s called a **Dataset**.
 
 Let’s go to this section, to see where the data are stored:
 
-**1 - Press on the button**
+``1 - Press on the button.``
 
-**2 – Select Dataset to see where the data is stored.**
+``2 – Select Dataset to see where the data is stored.``
 
 .. image:: imgs-user-story/seven.jpg 
 
@@ -143,15 +143,15 @@ Here you can see an overview of where your data is stored:
 
 .. image:: imgs-user-story/nine.jpg 
 
-**1 – Results of the datasets**
+``1 – Results of the datasets.``
 
-**2 – Name of the dataset and where is in the hierarchy: Name of the database table and where is located**
+``2 – Name of the dataset and where is in the hierarchy: Name of the database table and where is located``
 
-**3 – Filter: to filter down in the datasets**
+``3 – Filter: to filter down in the datasets.``
 
-**4 – Search bar: to look for the entities inside this dataset**
+``4 – Search bar: to look for the entities inside this dataset.``
 
-**5 – Type of storage**
+``5 – Type of storage.``
 
 The data engineer can see that the data is stored in a database table
 called **NL1-HR-001**, which resides in a database called **NL1-HR**, which is

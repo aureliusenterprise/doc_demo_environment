@@ -66,23 +66,23 @@ these elements:
 .. image:: imgs-user-story2/third.jpg 
 
 
-``**1. – Name and type: Of the dataset**``
+``1. – Name and type: Of the dataset``
 
-``**2. – Hierarchy: Where is located inside the system**``
+``2. – Hierarchy: Where is located inside the system``
 
-``**3. – Description: Gives you information about this dataset**``
+``3. – Description: Gives you information about this dataset``
 
-``**4. – Summary of page structure: Quick view of all the elements of the page**``
+``4. – Summary of page structure: Quick view of all the elements of the page``
 
-``**5. - Lineage model: If is available or not**``
+``5. - Lineage model: If is available or not``
 
-``**6. - Button: to navigate for the structure of the page**``
+``6. - Button: to navigate for the structure of the page``
 
 To find the Lineage model:
 
-**1. – Click on the button.**
+``1. – Click on the button.``
 
-**2 – Click on Lineage Model**
+``2 – Click on Lineage Model``
 
 
 .. image:: imgs-user-story2/fourth.jpg 
@@ -100,11 +100,11 @@ how is this one being used.
 
 Here is an overview of the elements on the detail page:
 
-**1– Name and type of data**
+``1– Name and type of data``
 
-**2– Data governance**
+``2– Data governance``
 
-**3– Properties of the data**
+``3– Properties of the data``
 
 
 
