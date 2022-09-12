@@ -11,7 +11,7 @@ Keep track of your data quality
 
 (How we solve it?)
 
-(Example scenario)
+(Example scenario)aa
 
 **To illustrate the process of finding relevant information, the
 location of the data and who is consuming this one, the following
