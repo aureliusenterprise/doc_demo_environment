@@ -37,10 +37,19 @@ scenario is described:**
    that determines if the information about this entity is complete or
    not.
 
+   .. image:: imgs-user-story6/first.jpg
 
+
+   .. image:: imgs-user-story6/second.jpg
+
+
+   .. image:: imgs-user-story6/third.jpg
 
    If you click on the entity details page, you can see what data
    governance controls have been performed.
+
+
+   .. image:: imgs-user-story6/fourth.jpg
 
 
 
@@ -51,11 +60,14 @@ scenario is described:**
    ``2 – Select Governance Quality Rules.``
 
 
+   .. image:: imgs-user-story6/fifth.jpg
+
+
    This indicates to the person responsible if the entity is complete or
    not, in this example we see that the data domain has no data
    entities.
 
-
+   .. image:: imgs-user-story6/six.jpg
 
    This suggests that is incomplete and more information should be
    added.
