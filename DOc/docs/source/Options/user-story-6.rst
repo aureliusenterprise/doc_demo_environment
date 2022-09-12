@@ -31,21 +31,39 @@ scenario is described:**
 
    Completing data governance information can be overwhelming, so the
    tool can help determine how this process is passing through data
-   governance quality checks.
+   governance quality checks. 
 
-   On the side of each card in the search, you can see a little icon
-   that determines if the information about this entity is complete or
+   Let's go to the business context card.
+
+   ``1 - Click on Start browsing data domains``
+
+
+   .. image:: imgs-user-story6/one.jpg
+
+   
+   Here you have the overview of all the data domains.
+
+   ``1 - Type of result.``
+   ``2 - Checkmark icon or Warning icon.``
+
+
+   .. image:: imgs-user-story6/two.jpg
+
+   **This checkmark means that the information about the entity is 
+   completed**
+
+   .. image:: imgs-user-story6/three.jpg
+
+   **This warning icon means that the information about the entity is 
+   completed**
+
+   .. image:: imgs-user-story6/four.jpg
+       
+
+   This determines if the information about this entity is complete or
    not.
 
-   .. image:: imgs-user-story6/first.jpg
-
-
-   .. image:: imgs-user-story6/second.jpg
-
-
-   .. image:: imgs-user-story6/third.jpg
-
-   If you click on the entity details page, you can see what data
+   If you click on the **Logistics** entity details page, you can see what data
    governance controls have been performed.
 
 
@@ -60,7 +78,7 @@ scenario is described:**
    ``2 – Select Governance Quality Rules.``
 
 
-   .. image:: imgs-user-story6/fifth.jpg
+   .. image:: imgs-user-story6/five.jpg
 
 
    This indicates to the person responsible if the entity is complete or
