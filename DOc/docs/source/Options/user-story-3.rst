@@ -1,5 +1,6 @@
 Cross data platform data governance
 ===================================
+.. _userStory3:
 
 (What is the problem?)
 
@@ -24,7 +25,7 @@ different environments in our Aurelius Atlas tooling
 .. image:: imgs-user-story3/lineage.jpg
 
 
-.. imgae:: imgs-user-story3/source.jpg
+.. image:: imgs-user-story3/source.jpg
 
 Benefits
 
