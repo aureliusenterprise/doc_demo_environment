@@ -9,14 +9,9 @@ Cross data platform data governance
 
 (Example scenario)
 
-**To illustrate the process of finding relevant information, the
-location of the data and who is consuming this one, the following
-scenario is described:** A implementer of data pipeline, you want to
-update schema of a particular table, so you want to know who is using
-the data and where are this different data being used to make sure that
-they also adjust their schema and the subsequent pipelines.
 
-In the `previous demo <#_DON’T_KNOW_WHERE>`__, you saw how the data was
+
+In the `previous demo <user-story-2>`, you saw how the data was
 captured across platforms, so in our specific case here we use a
 relational database and then a Kafka instance to communicate the change
 events and then store the state in elastic search storage.
