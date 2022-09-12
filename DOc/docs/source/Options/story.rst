@@ -22,6 +22,13 @@ Furthermore, for each of the User stories you will find:
 
 * :ref:`Managing data pipelines with full lineage<userStory2>`
 
+* :ref:`Cross data platform data governance<userStory3>`
+
+* :ref:`Data isn’t of high enough quality ​<userStory4>`
+
+* :ref:`Data isn’t of high enough quality ​<userStory5>`
+
+* :ref:`Data isn’t of high enough quality ​<userStory6>`
 
 
 
@@ -37,6 +44,10 @@ Furthermore, for each of the User stories you will find:
       :caption: Menu
 
       user-story-1
-      user-story-1-2
+      user-story-2
+      user-story-3
+      user-story-4
+      user-story-5
+      user-story-6
 
     
