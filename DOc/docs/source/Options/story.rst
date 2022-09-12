@@ -24,11 +24,11 @@ Furthermore, for each of the User stories you will find:
 
 * :ref:`Cross data platform data governance<userStory3>`
 
-* :ref:`Data isn’t of high enough quality ​<userStory4>`
+* :ref:`Find data fast and observed quality metrics​<userStory4>`
 
-* :ref:`Data isn’t of high enough quality ​<userStory5>`
+* :ref:`Simple ways to get your data in ​<userStory5>`
 
-* :ref:`Data isn’t of high enough quality ​<userStory6>`
+* :ref:`Keep track of your data quality ​<userStory6>`
 
 
 

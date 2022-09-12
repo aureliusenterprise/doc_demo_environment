@@ -1,6 +1,9 @@
-Governance quality check of an owner
-====================================
+Keep track of your data quality
+===============================
 .. _userStory6:
+
+.. raw:: html
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/q6yFKAfdbSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 (What is the problem?)
 
