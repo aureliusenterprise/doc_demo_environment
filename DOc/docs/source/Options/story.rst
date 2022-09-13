@@ -14,7 +14,7 @@ Furthermore, for each of the User stories you will find:
 
 -  **Video that shows you step by step how to use Aurelius Atlas for the user story**
 
-Each of the user stories can be executed by yourself using the demo environment.
+Each of the user stories can be executed by **yourself** using the demo environment.
 
 ``!NOTE: Gmail account is needed to Sign in.``
 
