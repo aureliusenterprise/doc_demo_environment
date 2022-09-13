@@ -11,13 +11,6 @@ have any button to add the entities, while time I put a placeholder)
 
 There are three ways to get data into the solution:
 
-``1. By the front end manually creating entities 1 by 1.``
-
-``2. Use an excel data dictionary that can bulk push multiple entities at
-   once.``
-
-``3. Use an API that can be connected directly 2 via script or
-   infrastructure.``
 
 **1. Creating Entities manually in the front end.**
 
