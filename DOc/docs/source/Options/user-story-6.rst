@@ -17,78 +17,78 @@ Keep track of your data quality
 location of the data and who is consuming this one, the following
 scenario is described:**
 
-   Aurelius Atlas Data Governance Solution provides the person in charge
-   of a data set with checking which government information has been
-   filled in correctly, so you can define governance quality rules in
-   the government system.
+Aurelius Atlas Data Governance Solution provides the person in charge
+of a data set with checking which government information has been
+filled in correctly, so you can define governance quality rules in
+the government system.
 
-   If you want to know more about governance quality rules, click here.
+If you want to know more about governance quality rules, click here.
 
-   This gives the person responsible for archiving that information and
-   monitoring it as a business owner the idea of whether everyone has
-   done that and what the quality of the government data that has been
-   recorded is from structural a point of view.
+This gives the person responsible for archiving that information and
+monitoring it as a business owner the idea of whether everyone has
+done that and what the quality of the government data that has been
+recorded is from structural a point of view.
 
-   Completing data governance information can be overwhelming, so the
-   tool can help determine how this process is passing through data
-   governance quality checks. 
+Completing data governance information can be overwhelming, so the
+tool can help determine how this process is passing through data
+governance quality checks. 
 
-   Let's go to the business context card.
+Let's go to the business context card.
 
-   ``1 - Click on Start browsing data domains``
+``1 - Click on Start browsing data domains``
 
 
-   .. image:: imgs-user-story6/one.jpg
+.. image:: imgs-user-story6/one.jpg
 
    
-   Here you have the overview of all the data domains.
+Here you have the overview of all the data domains.
 
-   ``1 - Type of result.``
-   ``2 - Checkmark icon or Warning icon.``
+``1 - Type of result.``
+``2 - Checkmark icon or Warning icon.``
 
 
-   .. image:: imgs-user-story6/two.jpg
+.. image:: imgs-user-story6/two.jpg
 
-   **This checkmark means that the information about the entity is 
-   completed**
+**This checkmark means that the information about the entity is 
+completed**
 
-   .. image:: imgs-user-story6/three.jpg
+.. image:: imgs-user-story6/three.jpg
 
-   **This warning icon means that the information about the entity is 
-   completed**
+**This warning icon means that the information about the entity is 
+completed**
 
-   .. image:: imgs-user-story6/four.jpg
+.. image:: imgs-user-story6/four.jpg
        
 
-   This determines if the information about this entity is complete or
-   not.
+This determines if the information about this entity is complete or
+not.
 
-   If you click on the **Logistics** entity details page, you can see what data
-   governance controls have been performed.
-
-
-   .. image:: imgs-user-story6/fourth.jpg
+If you click on the **Logistics** entity details page, you can see what data
+governance controls have been performed.
 
 
-
-   Let’s go to the Governance Quality Rules:
-
-   ``1 - Press on the button.``
-
-   ``2 – Select Governance Quality Rules.``
+.. image:: imgs-user-story6/fourth.jpg
 
 
-   .. image:: imgs-user-story6/five.jpg
+
+Let’s go to the Governance Quality Rules:
+
+``1 - Press on the button.``
+
+``2 – Select Governance Quality Rules.``
 
 
-   This indicates to the person responsible if the entity is complete or
-   not, in this example we see that the data domain has no data
-   entities.
+.. image:: imgs-user-story6/five.jpg
 
-   .. image:: imgs-user-story6/six.jpg
 
-   This suggests that is incomplete and more information should be
-   added.
+This indicates to the person responsible if the entity is complete or
+not, in this example we see that the data domain has no data
+entities.
+
+.. image:: imgs-user-story6/six.jpg
+
+This suggests that is incomplete and more information should be
+added.
 
 
 

@@ -6,8 +6,8 @@ Simple ways to get your data in
    <iframe width="560" height="315" src="https://www.youtube.com/embed/aDlHZYp5ZDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
    
-| (We have to make a new video, because the actual Aurelius Atlas, don’t
-| have any button to add the entities, while time I put a placeholder)
+(We have to make a new video, because the actual Aurelius Atlas, don’t
+have any button to add the entities, while time I put a placeholder)
 
 There are three ways to get data into the solution:
 
