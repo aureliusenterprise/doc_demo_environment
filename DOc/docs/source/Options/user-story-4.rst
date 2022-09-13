@@ -4,7 +4,7 @@ Find data fast and observed quality metrics
 
 
 .. raw:: html
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/QBZ80l5jpvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/QBZ80l5jpvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 (What is the problem?)
@@ -17,21 +17,21 @@ Find data fast and observed quality metrics
 
 
 
-   As a user, you can be interested in having a clear vision of the
-   quality of your data and how you can obtain the best quality from it.
+As a user, you can be interested in having a clear vision of the
+quality of your data and how you can obtain the best quality from it.
 
-   Let’s look for some data, found a data set and go to its page.
+Let’s look for some data, found a data set and go to its page.
 
-   You have, an overview of the overall data quality of the data set can
-   be seen.
+You have, an overview of the overall data quality of the data set can
+be seen.
 
-   What we see here is that the quality is not a hundred percent.
+What we see here is that the quality is not a hundred percent.
 
-   .. image:: imgs-user-story4/first.jpg
+.. image:: imgs-user-story4/first.jpg
 
 
 
-   Let’s go to this section, to see the fields:
+Let’s go to this section, to see the fields:
 
 ``1 - Press on the button.``
 
@@ -43,25 +43,27 @@ Find data fast and observed quality metrics
 
 
 
-   Here we can see the quality of each field and identify where the
-   quality is not being met.
+Here we can see the quality of each field and identify where the
+quality is not being met.
 
 
 .. image:: imgs-user-story4/third.jpg
 
 
-   If your project only requires **FTE** and **LOCATION** fields in which the
-   quality is high, you can ignore the bad quality of the unrelated
-   fields.
+If your project only requires **FTE** and **LOCATION** fields in which the
+quality is high, you can ignore the bad quality of the unrelated
+fields.
 
 .. image:: imgs-user-story4/fourth.jpg
 
-   However, if you require the **HIER ORGANIZATION** field, you can notice
-   that the precision is low.
+However, if you require the **HIER ORGANIZATION** field, you can notice
+that the precision is low.
 
 .. image:: imgs-user-story4/fifth.jpg
 
-   Let’s go to the Data Quality Rules:
+
+Let’s go to the Data Quality Rules:
+
 
 ``1 - Press on the button.``
 
@@ -72,15 +74,16 @@ Find data fast and observed quality metrics
 
 
 
-   You can see that the syntax of the field is not always being
-   followed.
+You can see that the syntax of the field is not always being
+followed.
+
 
 .. image:: imgs-user-story4/seven.jpg
 
-   With this information, you can now understand the limitations of the
-   dataset.
+With this information, you can now understand the limitations of the
+dataset.
 
-   Let’s go to the Data Attributes:
+Let’s go to the Data Attributes:
 
 ``1 - Press on the button.``
 
@@ -89,7 +92,7 @@ Find data fast and observed quality metrics
 .. image:: imgs-user-story4/eigth.jpg
 
 
-   As you can see in this picture:
+As you can see in this picture:
 
 
 .. image:: imgs-user-story4/nine.jpg
@@ -103,9 +106,9 @@ Find data fast and observed quality metrics
 
 ``4 People in charge of this data.``
 
-   In this way, you can have your data always updated to always
-   guarantee good quality in it, because you can know who is in charge
-   of it and ask them to clean it up.
+In this way, you can have your data always updated to always
+guarantee good quality in it, because you can know who is in charge
+of it and ask them to clean it up.
 
 
 
