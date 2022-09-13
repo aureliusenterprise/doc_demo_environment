@@ -10,12 +10,12 @@ perspective to guide you how this is solved by Aurelius Atlas.
 
 Furthermore, for each of the User stories you will find:
 
--  Step by step description of the User story
+-  **Step by step description of the User story**
 
--  Video that shows you step by step how to use Aurelius Atlas for the
-   User story
+-  **Video that shows you step by step how to use Aurelius Atlas for the user story**
 
 Each of the user stories can be executed by yourself using the demo environment.
+
 ``!NOTE: Gmail account is needed to Sign in.``
 
 **User stories**
