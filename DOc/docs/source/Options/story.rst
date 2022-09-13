@@ -15,6 +15,9 @@ Furthermore, for each of the User stories you will find:
 -  Video that shows you step by step how to use Aurelius Atlas for the
    User story
 
+Each of the user stories can be executed by yourself using the demo environment.
+``!NOTE: Gmail account is needed to Sign in.``
+
 **User stories**
 
 
@@ -29,12 +32,6 @@ Furthermore, for each of the User stories you will find:
 * :ref:`Simple ways to get your data in ​<userStory5>`
 
 * :ref:`Keep track of your data quality ​<userStory6>`
-
-
-
-
-
-
 
 
 

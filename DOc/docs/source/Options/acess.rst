@@ -1,7 +1,7 @@
 How to acess the Demo Environment
 =================================
 
-Use the link below to sign in or :ref:`click here<indexStory>` to learn more about user stories.
+Use the link below to sign in or :ref:`Click here<indexStory>` to learn more about user stories.
 
 .. raw:: html
 
@@ -10,9 +10,9 @@ Use the link below to sign in or :ref:`click here<indexStory>` to learn more abo
 
 
 
-``! NOTE:``
+``! NOTE:  Gmail account is needed to Sign in.``
 
-**A Gmail account is needed to Sign in.**
+
 
 .. image:: imgs-acess/login.jpg
 
