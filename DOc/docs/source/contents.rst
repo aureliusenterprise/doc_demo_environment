@@ -18,7 +18,7 @@ the Elastic V2 license agreement.
       :caption: Menu
 
       Options/benefits
-      Options/user-story-3
+      Options/user-story-5
       Options/acess
       Options/story
 
