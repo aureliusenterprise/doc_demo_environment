@@ -1,9 +1,6 @@
 Cross data platform data governance
 ===================================
 
-
-User story 
-----------
 Data management is using solutions from different vendors, potentially even in different clouds or in a cloud and some parts on premise.
 The data governance solutions of the different cloud providers focus on data governance of their specific solutions.
 Thus, for the organization it is very difficult to get an overview of the available data and the related data flows across the different solutions and platforms. 
