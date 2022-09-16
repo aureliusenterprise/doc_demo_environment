@@ -1,6 +1,6 @@
 Simple ways to get your data in
 ===============================
-.. _userStory5:
+.. _simple:
 
 **COMING SOON**
 
