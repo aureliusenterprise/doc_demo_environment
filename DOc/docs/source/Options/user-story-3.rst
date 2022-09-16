@@ -20,7 +20,7 @@ so you want to know who is using the data and where are this different data bein
 
 Step by step guide
 ------------------
-In the `previous demo <userStory2>`, you saw a linage example where data was flowing across different platforms 
+In the `previous demo <userStory2>`__, you saw a linage example where data was flowing across different platforms 
 
 .. image:: imgs-user-story3/1.jpg
 

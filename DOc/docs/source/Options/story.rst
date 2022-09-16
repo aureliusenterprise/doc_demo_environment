@@ -29,8 +29,6 @@ Each of the user stories can be executed by **yourself** using the demo environm
 
 * :ref:`Find data fast and observed quality metrics​<userStory4>`
 
-* :ref:`Simple ways to get your data in ​<userStory5>`
-
 * :ref:`Keep track of your data quality ​<userStory6>`
 
 
@@ -44,7 +42,6 @@ Each of the user stories can be executed by **yourself** using the demo environm
       user-story-2
       user-story-3
       user-story-4
-      user-story-5
       user-story-6
 
 
