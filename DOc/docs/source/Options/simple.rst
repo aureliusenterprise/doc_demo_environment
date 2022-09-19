@@ -15,7 +15,7 @@ There are three ways to get data into the solution:
 
 Then appears a side page, for create the entity
 
-.. image:: imgs-simple/2.jpg
+.. image:: imgs-simple/1.jpg
 
 
 Let’s have a close look to the creation entity page
@@ -25,13 +25,9 @@ Let’s have a close look to the creation entity page
 
 
 ``1 – Entity type: this case is a Data domain.``
-
 ``2 – Name.``
-
 ``3 – Definition.``
-
 ``4 – Domain lead.``
-
 ``5 – Save button.``
 
 
