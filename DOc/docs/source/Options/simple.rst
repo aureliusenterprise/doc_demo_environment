@@ -25,9 +25,13 @@ Let’s have a close look to the creation entity page
 
 
 ``1 – Entity type: this case is a Data domain.``
+
 ``2 – Name.``
+
 ``3 – Definition.``
+
 ``4 – Domain lead.``
+
 ``5 – Save button.``
 
 
@@ -45,6 +49,7 @@ Once you fill all the information, you get the entity created
 
 
 ``1 – You can fill the name, description and data ownership rule.``
+
 ``2 – Use to create business data in bulk.``
 
 
