@@ -15,7 +15,7 @@ There are three ways to get data into the solution:
 
 Then appears a side page, for create the entity
 
-.. image:: imgs-simple/1.jpg
+.. image:: imgs-simple/2.jpg
 
 
 Let’s have a close look to the creation entity page
