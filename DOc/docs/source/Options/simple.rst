@@ -25,9 +25,13 @@ Let’s have a close look to the creation entity page
 
 
 ``1 – Entity type: this case is a Data domain.``
+
 ``2 – Name.``
+
 ``3 – Definition.``
+
 ``4 – Domain lead.``
+
 ``5 – Save button.``
 
 
