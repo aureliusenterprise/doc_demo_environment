@@ -2,9 +2,5 @@ TEST1
 -----
 
 
-:doc:`helmchart <https://github.com/aureliusenterprise/helm-governance/blob/main/README.md>`
+:doc:`helmchart <Lineage_rest_api_swagger.txt>`
 
-
-:download:`Swagger <Lineage_rest_api_swagger.txt>`
-
-:file:`https://github.com/aureliusenterprise/helm-governance/blob/main/README.md`
