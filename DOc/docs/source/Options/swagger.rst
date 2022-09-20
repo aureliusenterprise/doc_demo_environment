@@ -1,3 +1,5 @@
-.. include:: DOc\docs\source\Lineage_rest_api_swagger.txt
-    
 TEST1
+
+
+.. include:: Lineage_rest_api_swagger.txt
+    
