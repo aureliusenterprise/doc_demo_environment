@@ -77,7 +77,3 @@ Extedending an option you can see the expected payload or body that can be sent 
 .. image:: imgs-simple/7.jpg
 
 
-.. toctree::
-      :caption: Menu
-
-      swagger.rst
