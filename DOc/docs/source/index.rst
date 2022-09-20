@@ -24,5 +24,4 @@ the Elastic V2 license agreement.
       Options/acess
       Options/story
       Options/deploy
-      Options/swagger
     

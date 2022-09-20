@@ -19,13 +19,7 @@ release = '0.1'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'sphinx.ext.intersphinx',
-
 ]
-
-intersphinx_mapping = {
-    'helmchart': ('https://github.com/aureliusenterprise/helm-governance/blob/main/README.md', None),
-}
 
 templates_path = ['_templates']
 exclude_patterns = []
