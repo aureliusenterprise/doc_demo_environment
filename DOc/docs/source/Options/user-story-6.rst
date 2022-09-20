@@ -6,12 +6,19 @@ Keep track of your data quality
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/q6yFKAfdbSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+User story
+----------
+
 Aurelius Atlas Data Governance Solution provides the person in charge of a data set with checking which government information has been filled in correctly, 
 so you can define governance quality rules in the government system. 
 This gives the person responsible for archiving that information and monitoring it as a business owner the idea of whether everyone has done that and 
 what the quality of the government data that has been recorded is from structural a point of view. 
 Completing data governance information can be overwhelming, so the tool can help determine how this process is passing through data governance quality checks. 
 
+
+Step by step guide
+------------------
  
 Let’s start from the business context card 
 
