@@ -2,12 +2,16 @@ Find data fast and observed quality metrics
 ===========================================
 .. _userStory4:
 
+User _userStory4
+----------------
 
 As a user, you can be interested in having a clear vision of the quality of your data and how you can obtain the best quality from it.
 Let’s look for some data, found a data set and go to its page.
 You have, an overview of the overall data quality of the data set can be seen.
 What we see here is that the quality is not a hundred percent.
 
+Step by step guide
+------------------
 
 .. image:: imgs-user-story4/first.jpg
 

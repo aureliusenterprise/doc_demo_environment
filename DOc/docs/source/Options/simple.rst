@@ -5,7 +5,7 @@ Simple ways to get your data in
 There are three ways to get data into the solution:
 
 **1.	Creating Entities manually in the front end.**
-------------------------------------------------------
+
 
 .. image:: imgs-simple/1.jpg
 
@@ -42,7 +42,7 @@ Once you fill all the information, you get the entity created
 
 
 **2.	Use an excel data dictionary that can bulk push multiple entities at once.**
-------------------------------------------------------------------------------------
+
 
 
 .. image:: imgs-simple/5.jpg
@@ -54,7 +54,7 @@ Once you fill all the information, you get the entity created
 
 
 **3.	Use the Lineage REST API that can be connected to directly with a  script or infrastructure.**
-------------------------------------------------------------------------------------------------------
+
 
 The Lineage REST API, provides various endpoints to get and create (post) entities of  different entity types. 
 To see the full list of the endpoints available and the required request fields, take a look at the Lineage REST API swagger. 
