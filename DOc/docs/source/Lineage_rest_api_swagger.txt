@@ -1,0 +1,2533 @@
+{
+    "swagger": "2.0",
+    "basePath": "/lin_api",
+    "paths": {
+        "/entity/confluentCloud_entity/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "confluentCloud_Entity Entity successfully created."
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    }
+                },
+                "summary": "Creates a new confluentCloud_Entity Entity",
+                "operationId": "post_confluentCloud_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_confluentCloud_entity"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/confluentCloud_entity"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "confluentCloud_Entity Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "confluentCloud_Entity is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of confluentCloud_Entity Entities",
+                "operationId": "get_confluentCloud_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/confluentCloud_entity"
+                ]
+            }
+        },
+        "/entity/confluentEnvironment_entity/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "confluentEnvironment Entity successfully created."
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    }
+                },
+                "summary": "Creates a new confluentEnvironment Entity",
+                "operationId": "post_confluentEnvironment_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_confluentEnvironment_entity"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/confluentEnvironment_entity"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "confluentEnvironment Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "confluentEnvironment is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of confluentEnvironment Entities",
+                "operationId": "get_confluentEnvironment_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/confluentEnvironment_entity"
+                ]
+            }
+        },
+        "/entity/dashboard_entity/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Dashboard Entity successfully created."
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    }
+                },
+                "summary": "Creates a new Dashboard Entity",
+                "operationId": "post_dashboard_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_dashboard_entity"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/dashboard_entity"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Dashboard Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "Dashboard is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of Dashboard Entities",
+                "operationId": "get_dashboard_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/dashboard_entity"
+                ]
+            }
+        },
+        "/entity/elasticCluster_entity/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "schema": {
+                            "$ref": "#/definitions/model_output"
+                        }
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    },
+                    "201": {
+                        "description": "elasticCluster Entity successfully created."
+                    }
+                },
+                "summary": "Creates a new elasticCluster Entity",
+                "operationId": "post_elasticCluster_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_elasticCluster_entity"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/elasticCluster_entity"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "elasticCluster Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "elasticCluster is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of elastic Cluster Entities",
+                "operationId": "get_elasticCluster_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/elasticCluster_entity"
+                ]
+            }
+        },
+        "/entity/elasticIndex_entity/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "elasticIndex Entity successfully created."
+                    },
+                    "204": {
+                        "description": "ElasticIndex already Exists"
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    }
+                },
+                "summary": "Creates a new elasticIndex Entity",
+                "operationId": "post_elasticIndex_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_elasticIndex_entity"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/elasticIndex_entity"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "elasticIndex Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "elasticIndex is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of elasticIndex Entities",
+                "operationId": "get_elasticIndex_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/elasticIndex_entity"
+                ]
+            }
+        },
+        "/entity/indexPattern_entity/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "indexPattern Entity successfully created."
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    }
+                },
+                "summary": "Creates a new indexPattern Entity",
+                "operationId": "post_indexPattern_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_indexPattern_entity"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/indexPattern_entity"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "indexPattern Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "indexPattern is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of indexPattern Entities",
+                "operationId": "get_indexPattern_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/indexPattern_entity"
+                ]
+            }
+        },
+        "/entity/kafkaCluster_entity/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "schema": {
+                            "$ref": "#/definitions/model_output"
+                        }
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    },
+                    "201": {
+                        "description": "kafkaCluster Entity successfully created."
+                    }
+                },
+                "summary": "Creates a new kafkaCluster Entity",
+                "operationId": "post_kafkaCluster_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_kafkaCluster_entity"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/kafkaCluster_entity"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "kafkaCluster Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "kafkaCluster is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of kafkaCluster Entities",
+                "operationId": "get_kafkaCluster_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/kafkaCluster_entity"
+                ]
+            }
+        },
+        "/entity/kafkaTopic_entity/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "kafkaTopic Entity successfully created."
+                    },
+                    "204": {
+                        "description": "Kafka Topic already Exists"
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    }
+                },
+                "summary": "Creates a new kafkaTopic Entity",
+                "operationId": "post_kafkaTopic_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_kafkaTopic_entity"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/kafkaTopic_entity"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "kafkaTopic Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "kafkaTopic is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of kafkaTopic Entities",
+                "operationId": "get_kafkaTopic_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/kafkaTopic_entity"
+                ]
+            }
+        },
+        "/entity/kibanaSpace_entity/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "schema": {
+                            "$ref": "#/definitions/model_output"
+                        }
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    },
+                    "201": {
+                        "description": "kibanaSpace Entity successfully created."
+                    }
+                },
+                "summary": "Creates a new kibanaSpace_entity Entity",
+                "operationId": "post_kibanaSpace_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_kibanaSpace_entity"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/kibanaSpace_entity"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "kibanaSpace Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "kibanaSpace is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of kibanaSpace_entity Entities",
+                "operationId": "get_kibanaSpace_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/kibanaSpace_entity"
+                ]
+            }
+        },
+        "/entity/ksql_entity/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "schema": {
+                            "$ref": "#/definitions/model_output"
+                        }
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    },
+                    "201": {
+                        "description": "ksql Entity successfully created."
+                    }
+                },
+                "summary": "Creates a new ksql Entity",
+                "operationId": "post_ksql_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_ksql_entity"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/ksql_entity"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "ksql Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "ksql is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of ksql Entities",
+                "operationId": "get_ksql_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/ksql_entity"
+                ]
+            }
+        },
+        "/entity/visualization_entity/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Visualization Entity successfully created."
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    }
+                },
+                "summary": "Creates a new Visualization Entity",
+                "operationId": "post_visualization_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_visualization_entity"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/visualization_entity"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Visualization Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "Visualization is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of Visualization Entities",
+                "operationId": "get_visualization_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "entity/visualization_entity"
+                ]
+            }
+        },
+        "/kubernetes/kubernetes_cluster/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Kubernetes Cluster Entity successfully created."
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    }
+                },
+                "summary": "Creates a new Kubernetes Cluster Entity",
+                "operationId": "post_kubernetes_cluster_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_kubernetes_cluster"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "kubernetes/kubernetes_cluster"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Kubernetes Cluster Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "Kubernetes Cluster is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of Kubernetes Cluster Entities",
+                "operationId": "get_kubernetes_cluster_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "kubernetes/kubernetes_cluster"
+                ]
+            }
+        },
+        "/kubernetes/kubernetes_cronjob/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Kubernetes Cronjob Entity successfully created."
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    }
+                },
+                "summary": "Creates a new Kubernetes Cronjob Entity",
+                "operationId": "post_kubernetes_cronjob_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_kubernetes_cronjob"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "kubernetes/kubernetes_cronjob"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Kubernetes Cronjob Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "Kubernetes Cronjob is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of Kubernetes Deployment Entities",
+                "operationId": "get_kubernetes_cronjob_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "kubernetes/kubernetes_cronjob"
+                ]
+            }
+        },
+        "/kubernetes/kubernetes_deployment/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Kubernetes Deployment Entity successfully created."
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    }
+                },
+                "summary": "Creates a new Kubernetes Deployment Entity",
+                "operationId": "post_kubernetes_deployment_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_kubernetes_deployment"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "kubernetes/kubernetes_deployment"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Kubernetes Deployment Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "Kubernetes Deployment is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of Kubernetes Deployment Entities",
+                "operationId": "get_kubernetes_deployment_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "kubernetes/kubernetes_deployment"
+                ]
+            }
+        },
+        "/kubernetes/kubernetes_environment/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Kubernetes Environment Entity successfully created."
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    }
+                },
+                "summary": "Creates a new Kubernetes Environment Entity",
+                "operationId": "post_kubernetes_environment_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_kubernetes_environment"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "kubernetes/kubernetes_environment"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Kubernetes Environment Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "Kubernetes Environment is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of Kubernetes Environment Entities",
+                "operationId": "get_kubernetes_environment_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "kubernetes/kubernetes_environment"
+                ]
+            }
+        },
+        "/kubernetes/kubernetes_namespace/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Kubernetes Namespace Entity successfully created."
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    }
+                },
+                "summary": "Creates a new Kubernetes Namespace Entity",
+                "operationId": "post_kubernetes_namespace_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_kubernetes_namespace"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "kubernetes/kubernetes_namespace"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Kubernetes Namespace Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "Kubernetes Namespace is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of Kubernetes Namespace Entities",
+                "operationId": "get_kubernetes_namespace_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "kubernetes/kubernetes_namespace"
+                ]
+            }
+        },
+        "/kubernetes/kubernetes_pod/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Kubernetes Pod Entity successfully created."
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    }
+                },
+                "summary": "Creates a new Kubernetes Pod Entity",
+                "operationId": "post_kubernetes_pod_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_kubernetes_pod"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "kubernetes/kubernetes_pod"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Kubernetes Pod Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "Kubernetes Pod is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of Kubernetes Pod Entities",
+                "operationId": "get_kubernetes_pod_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "kubernetes/kubernetes_pod"
+                ]
+            }
+        },
+        "/process/api_operation_process/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "API Operation Process Entity successfully created."
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    }
+                },
+                "summary": "Creates a new API Operation Process Entity",
+                "operationId": "post_api_operation_process_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_api_operation_process"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "process/api_operation_process"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "API Operation Process Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "API Operation Process is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of API Operation Entities",
+                "operationId": "get_api_operation_process_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "process/api_operation_process"
+                ]
+            }
+        },
+        "/process/connector_process/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Connector Process Entity successfully created."
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    }
+                },
+                "summary": "Creates a new Connector Process Entity",
+                "operationId": "post_connector_process_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/attributes_m4i_connector_process"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "process/connector_process"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Connector Process Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "Connector Process is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of Connector Entities",
+                "operationId": "get_connector_process_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "process/connector_process"
+                ]
+            }
+        },
+        "/process/generic_process/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Generic Process Entity successfully created."
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    }
+                },
+                "summary": "Creates a new Generic Process Entity",
+                "operationId": "post_generic_process_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_generic_process"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "process/generic_process"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Generic Process Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "Generic Process is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of Generic Process Entities",
+                "operationId": "get_generic_process_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "process/generic_process"
+                ]
+            }
+        },
+        "/process/ingress_controller_process/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Ingress Controller Process Entity successfully created."
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    }
+                },
+                "summary": "Creates a new Ingress Controller Process Entity",
+                "operationId": "post_ingress_controller_process_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_ingress_controller_process"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "process/ingress_controller_process"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Ingress Controller Process Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "Ingress Controller Process is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of Ingress Controller Entities",
+                "operationId": "get_ingress_controller_process_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "process/ingress_controller_process"
+                ]
+            }
+        },
+        "/process/ingress_object_process/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Ingress Object Process Entity successfully created."
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    }
+                },
+                "summary": "Creates a new Ingress Object Process Entity",
+                "operationId": "post_ingress_object_process_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_ingress_object_process"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "process/ingress_object_process"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Ingress Object Process Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "Ingress Object Process is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of Ingress Object Entities",
+                "operationId": "get_ingress_object_process_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "process/ingress_object_process"
+                ]
+            }
+        },
+        "/process/kubernetes_service_process/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Kubernetes Service Process Entity successfully created."
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    }
+                },
+                "summary": "Creates a new Kubernetes Service Process Entity",
+                "operationId": "post_kubernetes_service_process_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_kubernetes_service_process"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "process/kubernetes_service_process"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Kubernetes Service Process Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "Kubernetes Service Process is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of Kubernetes Service Entities",
+                "operationId": "get_kubernetes_service_process_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "process/kubernetes_service_process"
+                ]
+            }
+        },
+        "/process/microservice_process/": {
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Microservice Process Entity successfully created."
+                    },
+                    "500": {
+                        "description": "ValueError"
+                    }
+                },
+                "summary": "Creates a new Microservice Process Entity",
+                "operationId": "post_microservice_process_entities",
+                "parameters": [
+                    {
+                        "name": "payload",
+                        "required": true,
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/model_m4i_microservice_process"
+                        }
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "process/microservice_process"
+                ]
+            },
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Microservice Process Entities in Atlas"
+                    },
+                    "400": {
+                        "description": "Microservice Process is not Defined in Atlas"
+                    }
+                },
+                "summary": "Returns list of Microservice Process Entities",
+                "operationId": "get_microservice_process_entities",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "process/microservice_process"
+                ]
+            }
+        }
+    },
+    "info": {
+        "title": "Lineage REST API",
+        "version": "1.0",
+        "description": "A simple demonstration of a Flask RestPlus powered API"
+    },
+    "produces": [
+        "application/json"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "tags": [
+        {
+            "name": "process/microservice_process",
+            "description": "Operations related to Microservice Process"
+        },
+        {
+            "name": "process/generic_process",
+            "description": "Operations related to \"Generic\" Process"
+        },
+        {
+            "name": "process/connector_process",
+            "description": "Connector Process"
+        },
+        {
+            "name": "entity/confluentCloud_entity",
+            "description": "Operations related to the confluentCloud Entity"
+        },
+        {
+            "name": "entity/dashboard_entity",
+            "description": "Operations related to the Dashboard Entity"
+        },
+        {
+            "name": "entity/indexPattern_entity",
+            "description": "Operations related to the Index Pattern Entity"
+        },
+        {
+            "name": "entity/visualization_entity",
+            "description": "Operations related to the Visualization Entity"
+        },
+        {
+            "name": "entity/kafkaTopic_entity",
+            "description": "Operations related to the Kafka Topic Entity"
+        },
+        {
+            "name": "entity/elasticIndex_entity",
+            "description": "Operations related to the elasticIndex Entity"
+        },
+        {
+            "name": "entity/confluentEnvironment_entity",
+            "description": "Operations related to the confluentEnvironment Entity"
+        },
+        {
+            "name": "entity/kafkaCluster_entity",
+            "description": "Operations related to the kafkaCluster Entity"
+        },
+        {
+            "name": "entity/elasticCluster_entity",
+            "description": "Operations related to the elasticCluster Entity"
+        },
+        {
+            "name": "entity/kibanaSpace_entity",
+            "description": "Operations related to the kibanaSpace_entity Entity"
+        },
+        {
+            "name": "kubernetes/kubernetes_environment",
+            "description": "Operations related to Kubernetes Environment"
+        },
+        {
+            "name": "kubernetes/kubernetes_cluster",
+            "description": "Operations related to Kubernetes Cluster"
+        },
+        {
+            "name": "kubernetes/kubernetes_namespace",
+            "description": "Operations related to Kubernetes Namespace"
+        },
+        {
+            "name": "kubernetes/kubernetes_deployment",
+            "description": "Operations related to Kubernetes Deployment"
+        },
+        {
+            "name": "kubernetes/kubernetes_cronjob",
+            "description": "Operations related to Kubernetes Cronjob"
+        },
+        {
+            "name": "kubernetes/kubernetes_pod",
+            "description": "Operations related to Kubernetes Pod"
+        },
+        {
+            "name": "process/api_operation_process",
+            "description": "API Operation Process"
+        },
+        {
+            "name": "process/ingress_controller_process",
+            "description": "Ingress Controller Process"
+        },
+        {
+            "name": "process/ingress_object_process",
+            "description": "Ingress Object Process"
+        },
+        {
+            "name": "process/kubernetes_service_process",
+            "description": "Kubernetes Service Process"
+        },
+        {
+            "name": "entity/ksql_entity",
+            "description": "Operations related to the ksql Entity"
+        }
+    ],
+    "definitions": {
+        "model_m4i_microservice_process": {
+            "required": [
+                "inputs",
+                "name",
+                "outputs",
+                "qualifiedName",
+                "system"
+            ],
+            "properties": {
+                "qualifiedName": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "processOwner": {
+                    "type": "string",
+                    "description": "Qualified Name of processOwner of Process Entity"
+                },
+                "inputs": {
+                    "type": "array",
+                    "description": "List Qualified Name Inputs  of Microservice Process Entity",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "outputs": {
+                    "type": "array",
+                    "description": "List Qualified Name Outputs of Microservice Entity",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "source": {
+                    "type": "array",
+                    "description": "List Qualified Name Source of Process Entity",
+                    "minItems": 1,
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "system": {
+                    "type": "string",
+                    "description": "The system that the microservice runs on"
+                }
+            },
+            "type": "object"
+        },
+        "model_m4i_generic_process": {
+            "required": [
+                "inputs",
+                "name",
+                "outputs",
+                "qualifiedName"
+            ],
+            "properties": {
+                "qualifiedName": {
+                    "type": "string",
+                    "description": "The qualifiedName of the process"
+                },
+                "name": {
+                    "type": "string",
+                    "description": "The name of the process"
+                },
+                "description": {
+                    "type": "string",
+                    "description": "The description of the process"
+                },
+                "processOwner": {
+                    "type": "string",
+                    "description": "Qualified Name of processOwner of Process Entity"
+                },
+                "inputs": {
+                    "type": "array",
+                    "description": "List Qualified Name Inputs  of Process Entity",
+                    "minItems": 1,
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "outputs": {
+                    "type": "array",
+                    "description": "List Qualified Name Outputs of Process Entity",
+                    "minItems": 1,
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "source": {
+                    "type": "array",
+                    "description": "List Qualified Name Source of Process Entity",
+                    "minItems": 1,
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            },
+            "type": "object"
+        },
+        "attributes_m4i_connector_process": {
+            "allOf": [
+                {
+                    "$ref": "#/definitions/model_m4i_generic_process"
+                },
+                {
+                    "required": [
+                        "connectorType",
+                        "server"
+                    ],
+                    "properties": {
+                        "connectorType": {
+                            "type": "string",
+                            "description": "ConnectorType of process Entity"
+                        },
+                        "server": {
+                            "type": "string",
+                            "description": "Server to which this connector runs"
+                        }
+                    },
+                    "type": "object"
+                }
+            ]
+        },
+        "model_m4i_confluentCloud_entity": {
+            "required": [
+                "name"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "The Name of the Confluent Cloud"
+                }
+            },
+            "type": "object"
+        },
+        "model_m4i_dashboard_entity": {
+            "allOf": [
+                {
+                    "$ref": "#/definitions/model_m4i_generic_entity"
+                },
+                {
+                    "required": [
+                        "child_dataset",
+                        "kibanaSpace",
+                        "updatedAt",
+                        "version"
+                    ],
+                    "properties": {
+                        "updatedAt": {
+                            "type": "string",
+                            "description": "The updatedAt in the saved object artifact of the dashboard"
+                        },
+                        "version": {
+                            "type": "string",
+                            "description": "The version in the saved object artifact of the dashboard"
+                        },
+                        "kibanaSpace": {
+                            "type": "string",
+                            "description": "The qualifiedNmae of the kibana Space the dashboard is on"
+                        },
+                        "creator": {
+                            "type": "array",
+                            "description": "List of qualifiedName for creators of the dashboard",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "child_dataset": {
+                            "type": "array",
+                            "description": "List of qualifiedNames of childDataset (visualizations) in the dashboard",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "type": "object"
+                }
+            ]
+        },
+        "model_m4i_generic_entity": {
+            "required": [
+                "name",
+                "qualifiedName"
+            ],
+            "properties": {
+                "qualifiedName": {
+                    "type": "string",
+                    "description": "qualifiedName of Entity"
+                },
+                "name": {
+                    "type": "string",
+                    "description": "Name of Entity"
+                },
+                "description": {
+                    "type": "string",
+                    "description": "Description of Entity"
+                }
+            },
+            "type": "object"
+        },
+        "model_m4i_indexPattern_entity": {
+            "allOf": [
+                {
+                    "$ref": "#/definitions/model_m4i_generic_entity"
+                },
+                {
+                    "required": [
+                        "indexPattern",
+                        "updatedAt",
+                        "version"
+                    ],
+                    "properties": {
+                        "indexPattern": {
+                            "type": "string",
+                            "description": "The indexPattern used by the save object index-pattern"
+                        },
+                        "updatedAt": {
+                            "type": "string",
+                            "description": "The updatedAt in the saved object artifact of the index-pattern"
+                        },
+                        "version": {
+                            "type": "string",
+                            "description": "The version in the saved object artifact of the index-pattern"
+                        },
+                        "creator": {
+                            "type": "array",
+                            "description": "List of qualifiedName for creators of the index-pattern",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "parentDataset": {
+                            "type": "array",
+                            "description": "List of qualifiedNames of parent dataset (visualization) that the index-pattern is used",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "type": "object"
+                }
+            ]
+        },
+        "model_m4i_visualization_entity": {
+            "allOf": [
+                {
+                    "$ref": "#/definitions/model_m4i_generic_entity"
+                },
+                {
+                    "required": [
+                        "childDataset",
+                        "type",
+                        "updatedAt",
+                        "version"
+                    ],
+                    "properties": {
+                        "updatedAt": {
+                            "type": "string",
+                            "description": "The updatedAt in the saved object artifact of the visualization"
+                        },
+                        "version": {
+                            "type": "string",
+                            "description": "The version in the saved object artifact of the visualization"
+                        },
+                        "creator": {
+                            "type": "array",
+                            "description": "List of qualifiedName for creators of the visualization",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "parentDataset": {
+                            "type": "array",
+                            "description": "List of qualifiedNames of parentDataset (dashboard) in the visualization",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "childDataset": {
+                            "type": "array",
+                            "description": "List of qualifiedNames of childDataset (index-pattern) in the visualization",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "type": {
+                            "type": "string",
+                            "description": "The type of the visualization"
+                        },
+                        "visualizationType": {
+                            "type": "string",
+                            "description": "The visualizationType of the visualization lens"
+                        }
+                    },
+                    "type": "object"
+                }
+            ]
+        },
+        "model_m4i_kafkaTopic_entity": {
+            "required": [
+                "cluster",
+                "environment",
+                "key_schema",
+                "name",
+                "partitions",
+                "replicas",
+                "value_schema"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "The name of hte kafka topic"
+                },
+                "environment": {
+                    "type": "string",
+                    "description": "The name of the confluent environment the kafka topic is on"
+                },
+                "cluster": {
+                    "type": "string",
+                    "description": "The name of kafka cluster the kafka topic is on"
+                },
+                "partitions": {
+                    "type": "integer",
+                    "description": "The partitions configured for the kafka topic"
+                },
+                "replicas": {
+                    "type": "integer",
+                    "description": "The replicas configured for the kafka topic"
+                },
+                "key_schema": {
+                    "type": "string",
+                    "description": "The key schema configured for the kafka topic"
+                },
+                "value_schema": {
+                    "description": "The value schema configured for the kafka topic",
+                    "allOf": [
+                        {}
+                    ],
+                    "oneOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "$ref": "#/definitions/fields_m4i_kafkaTopic_entity"
+                        }
+                    ]
+                }
+            },
+            "type": "object"
+        },
+        "fields_m4i_kafkaTopic_entity": {
+            "required": [
+                "doc",
+                "fields",
+                "name",
+                "type"
+            ],
+            "properties": {
+                "fields": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/field_m4i_kafkaTopic_entity"
+                    }
+                },
+                "name": {
+                    "type": "string"
+                },
+                "doc": {
+                    "type": [
+                        "string",
+                        "null",
+                        "array"
+                    ]
+                },
+                "type": {
+                    "type": [
+                        "string",
+                        "object",
+                        "array"
+                    ]
+                }
+            },
+            "type": "object"
+        },
+        "field_m4i_kafkaTopic_entity": {
+            "required": [
+                "doc",
+                "type"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "doc": {
+                    "type": [
+                        "string",
+                        "null",
+                        "array"
+                    ]
+                },
+                "type": {
+                    "type": [
+                        "string",
+                        "object",
+                        "array"
+                    ]
+                }
+            },
+            "type": "object"
+        },
+        "model_m4i_elasticIndex_entity": {
+            "required": [
+                "cluster",
+                "environment",
+                "indexTemplate",
+                "name",
+                "qualifiedName"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "Name of elastic index"
+                },
+                "qualifiedName": {
+                    "type": "string",
+                    "description": "The qualifiedName of the elastic index"
+                },
+                "cluster": {
+                    "type": "string",
+                    "description": "The qualifiedName of elastic cluster the elastic index is on"
+                },
+                "environment": {
+                    "type": "string",
+                    "description": "Name of environment the elastic index is on"
+                },
+                "indexTemplate": {
+                    "description": "The template used by the elastic index",
+                    "allOf": [
+                        {
+                            "$ref": "#/definitions/maps"
+                        }
+                    ]
+                }
+            },
+            "type": "object"
+        },
+        "maps": {
+            "properties": {
+                "mappings": {
+                    "type": "object"
+                }
+            },
+            "type": "object"
+        },
+        "model_m4i_confluentEnvironment_entity": {
+            "required": [
+                "confluent_cloud",
+                "name",
+                "schema_registry"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "Name of the Confluent Environment"
+                },
+                "confluent_cloud": {
+                    "type": "string",
+                    "description": "The Qualified name of m4i_confluentCloud entity to which it belongs"
+                },
+                "schema_registry": {
+                    "type": "boolean",
+                    "description": "A boolean indicating if there is a schemaRegistry required"
+                }
+            },
+            "type": "object"
+        },
+        "model_m4i_kafkaCluster_entity": {
+            "required": [
+                "confluent_environment",
+                "kafka_partitions",
+                "kafka_replicas",
+                "name"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "The name of the kafka cluster"
+                },
+                "confluent_environment": {
+                    "type": "string",
+                    "description": "The name of the confluent environment the kafka cluster is on"
+                },
+                "kafka_partitions": {
+                    "type": "integer",
+                    "description": "The partitions configured for the kafka cluster"
+                },
+                "kafka_replicas": {
+                    "type": "integer",
+                    "description": "The replica_count configured for the kafka cluster"
+                }
+            },
+            "type": "object"
+        },
+        "model_output": {
+            "required": [
+                "CREATE",
+                "DELETE",
+                "UPDATE"
+            ],
+            "properties": {
+                "CREATE": {
+                    "type": "integer"
+                },
+                "UPDATE": {
+                    "type": "integer"
+                },
+                "DELETE": {
+                    "type": "integer"
+                }
+            },
+            "type": "object"
+        },
+        "model_m4i_elasticCluster_entity": {
+            "required": [
+                "name",
+                "replica_count",
+                "shard_count"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "Name of elastic cluster"
+                },
+                "replica_count": {
+                    "type": "integer",
+                    "description": "The replica_count configured for the elastic cluster"
+                },
+                "shard_count": {
+                    "type": "integer",
+                    "description": "The shard_count configured for the elastic cluster"
+                }
+            },
+            "type": "object"
+        },
+        "model_m4i_kibanaSpace_entity": {
+            "required": [
+                "avatar_color",
+                "avatar_initials",
+                "elastic_cluster",
+                "name"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "The name of the kibana space"
+                },
+                "avatar_color": {
+                    "type": "string",
+                    "description": "The avatar_color of the kibana space"
+                },
+                "avatar_initials": {
+                    "type": "string",
+                    "description": "The avatar_initials of the kibana space"
+                },
+                "elastic_cluster": {
+                    "type": "string",
+                    "description": "The qualifiedName of the elastic cluster the kibana space is on"
+                },
+                "description": {
+                    "type": "string",
+                    "description": "The description of the kibana space"
+                }
+            },
+            "type": "object"
+        },
+        "model_m4i_kubernetes_environment": {
+            "allOf": [
+                {
+                    "$ref": "#/definitions/model_m4i_generic_entity"
+                },
+                {
+                    "required": [
+                        "kubernetesClusters"
+                    ],
+                    "properties": {
+                        "kubernetesClusters": {
+                            "type": "array",
+                            "description": "List of Qualified Names of kubernetes clusters on this kubernetes environment",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "type": "object"
+                }
+            ]
+        },
+        "model_m4i_kubernetes_cluster": {
+            "allOf": [
+                {
+                    "$ref": "#/definitions/model_m4i_generic_entity"
+                },
+                {
+                    "required": [
+                        "kubernetesEnvironment",
+                        "kubernetesNamespace"
+                    ],
+                    "properties": {
+                        "kubernetesNamespace": {
+                            "type": "array",
+                            "description": "List of Qualified Names of kubernetes Namespace on this kubernetes cluster",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "kubernetesEnvironment": {
+                            "type": "string",
+                            "description": "The Qualified Names of kubernetes environment this kubernetes cluster is on"
+                        }
+                    },
+                    "type": "object"
+                }
+            ]
+        },
+        "model_m4i_kubernetes_namespace": {
+            "allOf": [
+                {
+                    "$ref": "#/definitions/model_m4i_generic_entity"
+                },
+                {
+                    "required": [
+                        "kubernetesCluster",
+                        "kubernetesCronjob",
+                        "kubernetesDeployment"
+                    ],
+                    "properties": {
+                        "kubernetesCronjob": {
+                            "type": "array",
+                            "description": "List of Qualified Names of kubernetes Cronjob on this kubernetes namespace",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "kubernetesDeployment": {
+                            "type": "array",
+                            "description": "List of Qualified Names of kubernetes Deployment on this kubernetes namespace",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "kubernetesCluster": {
+                            "type": "string",
+                            "description": "The Qualified Names of kubernetes cluster this kubernetes namespace is on"
+                        }
+                    },
+                    "type": "object"
+                }
+            ]
+        },
+        "model_m4i_kubernetes_deployment": {
+            "allOf": [
+                {
+                    "$ref": "#/definitions/model_m4i_generic_entity"
+                },
+                {
+                    "required": [
+                        "kubernetesNamespace",
+                        "kubernetesPod"
+                    ],
+                    "properties": {
+                        "kubernetesPod": {
+                            "type": "array",
+                            "description": "List of Qualified Names of kubernetes pods on this kubernetes deployment",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "tags": {
+                            "type": "string",
+                            "description": "The tags of the deployment"
+                        },
+                        "kubernetesNamespace": {
+                            "type": "string",
+                            "description": "The Qualified Names of kubernetes namespace this kubernetes deployment is on"
+                        }
+                    },
+                    "type": "object"
+                }
+            ]
+        },
+        "model_m4i_kubernetes_cronjob": {
+            "allOf": [
+                {
+                    "$ref": "#/definitions/model_m4i_generic_entity"
+                },
+                {
+                    "required": [
+                        "kubernetesNamespace",
+                        "kubernetesPod"
+                    ],
+                    "properties": {
+                        "kubernetesPod": {
+                            "type": "array",
+                            "description": "List of Qualified Names of kubernetes pods on this kubernetes cronjob",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "tags": {
+                            "type": "string",
+                            "description": "The tags of the cronjob"
+                        },
+                        "schedule": {
+                            "type": "string",
+                            "description": "The schedule of the cronjob"
+                        },
+                        "kubernetesNamespace": {
+                            "type": "string",
+                            "description": "The Qualified Names of kubernetes namespace this kubernetes cronjob is on"
+                        }
+                    },
+                    "type": "object"
+                }
+            ]
+        },
+        "model_m4i_kubernetes_pod": {
+            "allOf": [
+                {
+                    "$ref": "#/definitions/model_m4i_generic_entity"
+                },
+                {
+                    "properties": {
+                        "kubernetesCronjob": {
+                            "type": "string",
+                            "description": "Qualified Name of kubernetes Cronjob this pod is based off"
+                        },
+                        "kubernetesDeployment": {
+                            "type": "string",
+                            "description": " Qualified Name of kubernetes Deployment this pod is based off"
+                        },
+                        "replicas": {
+                            "type": "string",
+                            "description": "The number of relicas pods"
+                        }
+                    },
+                    "type": "object"
+                }
+            ]
+        },
+        "model_m4i_api_operation_process": {
+            "allOf": [
+                {
+                    "$ref": "#/definitions/model_m4i_generic_entity"
+                },
+                {
+                    "required": [
+                        "inputs",
+                        "microservice",
+                        "outputs"
+                    ],
+                    "properties": {
+                        "processOwner": {
+                            "type": "string",
+                            "description": "Qualified Name of processOwner of Process Entity"
+                        },
+                        "inputs": {
+                            "type": "array",
+                            "description": "List Qualified Name Inputs  of Api Operation Process Entity",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "outputs": {
+                            "type": "array",
+                            "description": "List Qualified Name Outputs of API Operation Entity",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "microservice": {
+                            "type": "string",
+                            "description": "The microservice that the api operation is on"
+                        }
+                    },
+                    "type": "object"
+                }
+            ]
+        },
+        "model_m4i_ingress_controller_process": {
+            "allOf": [
+                {
+                    "$ref": "#/definitions/model_m4i_generic_entity"
+                },
+                {
+                    "required": [
+                        "cluster",
+                        "ingressObject",
+                        "inputs",
+                        "outputs"
+                    ],
+                    "properties": {
+                        "processOwner": {
+                            "type": "string",
+                            "description": "Qualified Name of processOwner of Process Entity"
+                        },
+                        "inputs": {
+                            "type": "array",
+                            "description": "List Qualified Name Inputs  of Ingress Controller Process Entity",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "outputs": {
+                            "type": "array",
+                            "description": "List Qualified Name Outputs of Ingress Controller Entity",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "ingressObject": {
+                            "type": "array",
+                            "description": "List Qualified Name ingress Objects known by the Ingress Controller Entity",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "cluster": {
+                            "type": "string",
+                            "description": "The cluster that the Ingress Controller is on"
+                        }
+                    },
+                    "type": "object"
+                }
+            ]
+        },
+        "model_m4i_ingress_object_process": {
+            "allOf": [
+                {
+                    "$ref": "#/definitions/model_m4i_generic_entity"
+                },
+                {
+                    "required": [
+                        "inputs",
+                        "kubernetesService",
+                        "namespace",
+                        "outputs"
+                    ],
+                    "properties": {
+                        "processOwner": {
+                            "type": "string",
+                            "description": "Qualified Name of processOwner of Process Entity"
+                        },
+                        "inputs": {
+                            "type": "array",
+                            "description": "List Qualified Name Inputs  of Ingress Controller Process Entity",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "outputs": {
+                            "type": "array",
+                            "description": "List Qualified Name Outputs of Ingress Controller Entity",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "kubernetesService": {
+                            "type": "array",
+                            "description": "List Qualified Name kubernetes services known by the Ingress object Entity",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "namespace": {
+                            "type": "string",
+                            "description": "The namespace that the Ingress object is on"
+                        },
+                        "ingressController": {
+                            "type": "string",
+                            "description": "The qualified name of the Ingress Controller that know the ingress object"
+                        }
+                    },
+                    "type": "object"
+                }
+            ]
+        },
+        "model_m4i_kubernetes_service_process": {
+            "allOf": [
+                {
+                    "$ref": "#/definitions/model_m4i_generic_entity"
+                },
+                {
+                    "required": [
+                        "inputs",
+                        "microservice",
+                        "namespace",
+                        "outputs"
+                    ],
+                    "properties": {
+                        "processOwner": {
+                            "type": "string",
+                            "description": "Qualified Name of processOwner of Process Entity"
+                        },
+                        "inputs": {
+                            "type": "array",
+                            "description": "List Qualified Name Inputs  of Kubernetes Service Process Entity",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "outputs": {
+                            "type": "array",
+                            "description": "List Qualified Name Outputs of Kubernetes Service Entity",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "microservice": {
+                            "type": "array",
+                            "description": "List Qualified Name microservices known by the Kubernetes Service Entity",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "namespace": {
+                            "type": "string",
+                            "description": "The namespace that the Kubernetes Service is on"
+                        },
+                        "ingressObject": {
+                            "type": "string",
+                            "description": "The ingress object that knows the Kubernetes Service"
+                        }
+                    },
+                    "type": "object"
+                }
+            ]
+        },
+        "model_m4i_ksql_entity": {
+            "required": [
+                "cluster",
+                "env",
+                "kafka_topic",
+                "name",
+                "properties",
+                "query",
+                "value_format"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "The name of ksql"
+                },
+                "env": {
+                    "type": "string",
+                    "description": "The confluent environment  ksql is run on"
+                },
+                "cluster": {
+                    "type": "string",
+                    "description": "The kafka cluster ksql is on"
+                },
+                "kafka_topic": {
+                    "type": "string",
+                    "description": "The kafka_topic ksql queries"
+                },
+                "value_format": {
+                    "type": "string",
+                    "description": "The value_format of the ksql"
+                },
+                "query": {
+                    "type": "string",
+                    "description": "The query of the ksql"
+                },
+                "properties": {
+                    "type": "string",
+                    "description": "The properties of the ksql"
+                }
+            },
+            "type": "object"
+        }
+    },
+    "responses": {
+        "ParseError": {
+            "description": "When a mask can't be parsed"
+        },
+        "MaskError": {
+            "description": "When any error occurs on mask"
+        },
+        "NoResultFound": {
+            "description": "No results found in database"
+        }
+    },
+    "host": "127.0.0.1:8888"
+}
