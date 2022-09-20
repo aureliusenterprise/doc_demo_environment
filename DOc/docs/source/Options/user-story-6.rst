@@ -20,7 +20,6 @@ Let’s start from the business context card
 ``1 – Click on start browsing data domains.`` 
 
  
-
 On the side of each card in the search, 
 you can see a little icon that determines if the information about this entity is complete or not. 
 
@@ -28,12 +27,15 @@ you can see a little icon that determines if the information about this entity i
 
 ``1 - Data type.``
 ``2 -  This checkmark means the entity is fully populated.``
+
 .. image:: imgs-user-story6/three.jpg
 
 ``2 - This warning symbol means that the entity is not filled.``
+
 .. image:: imgs-user-story6/four.jpg
 
 Let’s click on Logistics entity 
+
 .. image:: imgs-user-story6/five.jpg
 
 Once there let’s go to the Governance Quality Rules: 
