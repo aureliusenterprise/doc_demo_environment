@@ -26,6 +26,7 @@ you can see a little icon that determines if the information about this entity i
 .. image:: imgs-user-story6/two.jpg
 
 ``1 - Data type.``
+
 ``2 -  This checkmark means the entity is fully populated.``
 
 .. image:: imgs-user-story6/three.jpg
