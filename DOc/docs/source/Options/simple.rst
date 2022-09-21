@@ -4,9 +4,9 @@ Simple ways to get your data in
 
 
 
-You can experience the user stories by yourself :ref:`Clicking here<indexStory>`.
-The demo environment is read only, thus you will not be able to modify or create concepts yourself.
-There are three ways to get data into the solution:
+You can experience the user stories by yourself :ref:`Clicking here<indexStory>`.  
+The demo environment is read only, thus you will not be able to modify or create concepts yourself.  
+There are three ways to get data into the solution: 
 
 **1.Creating Entities manually in the front end.**
 --------------------------------------------------

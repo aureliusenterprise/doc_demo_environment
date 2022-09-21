@@ -2,84 +2,91 @@ Find data fast and observed quality metrics
 ===========================================
 .. _userStory4:
 
-.. raw:: html
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/QBZ80l5jpvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**COMING SOON.....**
 
-
-User Story
-----------
-
-As a user, you can be interested in having a clear vision of the quality of your data and how you can obtain the best quality from it.
-Let’s look for some data, found a data set and go to its page.
-You have, an overview of the overall data quality of the data set can be seen.
-What we see here is that the quality is not a hundred percent.
-
-Step by step guide
-------------------
-
-.. image:: imgs-user-story4/first.jpg
-
-Let’s go to this section, to see the fields:
-
-``1 - Press on the button.``
-
-``2 – Select Fields.``
-
-.. image:: imgs-user-story4/second.jpg
-
-Here we can see the quality of each field and identify where the quality is not being met.
-
-.. image:: imgs-user-story4/third.jpg
-
-If your project only requires **FTE** and **location** fields in which the quality is high, 
-you can ignore the bad quality of the unrelated fields.
-
-.. image:: imgs-user-story4/fourth.jpg
-
-However, if you require the **HIER ORGANIZATION** field, 
-you can notice that the precision is low.
-
-.. image:: imgs-user-story4/fifth.jpg
-
-Let’s go to the Data Quality Rules:
-
-``1 - Press on the button.``
-
-``2 – Select Data Quality Rules.``
+.. image:: imgs/404.jpg
 
 
-.. image:: imgs-user-story4/six.jpg
+..
+    .. raw:: html
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QBZ80l5jpvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-You can see that the syntax of the field is not always being followed.
+    User Story
+    ----------
 
-.. image:: imgs-user-story4/seven.jpg
+    As a user, you can be interested in having a clear vision of the quality of your data and how you can obtain the best quality from it.
+    Let’s look for some data, found a data set and go to its page.
+    You have, an overview of the overall data quality of the data set can be seen.
+    What we see here is that the quality is not a hundred percent.
 
-With this information, you can now understand the limitations of the dataset.
+    Step by step guide
+    ------------------
 
-Let’s go to the Data Attributes:
-1 - Press on the button
-2 – Select Data Attributes.
+    .. image:: imgs-user-story4/first.jpg
 
-.. image:: imgs-user-story4/eigth.jpg
+    Let’s go to this section, to see the fields:
 
-As you can see in this picture:
-.. image:: imgs-user-story4/nine.jpg
+    ``1 - Press on the button.``
 
-``1 - Name and results.``
+    ``2 – Select Fields.``
 
-``2 - Filter and search bar.``
+    .. image:: imgs-user-story4/second.jpg
 
-``3 - Attributes.``
+    Here we can see the quality of each field and identify where the quality is not being met.
 
-``4 - People in charge of this data.``
+    .. image:: imgs-user-story4/third.jpg
 
-In this way, you can have your data always updated to always guarantee good quality in it, 
-because you can know who oversees it and ask them to clean it up.
+    If your project only requires **FTE** and **location** fields in which the quality is high, 
+    you can ignore the bad quality of the unrelated fields.
 
-Benefits
+    .. image:: imgs-user-story4/fourth.jpg
 
-**1 – Great insight into data quality.**
+    However, if you require the **HIER ORGANIZATION** field, 
+    you can notice that the precision is low.
 
-**2 – Easy to find the person in charge of the data.**
+    .. image:: imgs-user-story4/fifth.jpg
+
+    Let’s go to the Data Quality Rules:
+
+    ``1 - Press on the button.``
+
+    ``2 – Select Data Quality Rules.``
+
+
+    .. image:: imgs-user-story4/six.jpg
+
+
+    You can see that the syntax of the field is not always being followed.
+
+    .. image:: imgs-user-story4/seven.jpg
+
+    With this information, you can now understand the limitations of the dataset.
+
+    Let’s go to the Data Attributes:
+    1 - Press on the button
+    2 – Select Data Attributes.
+
+    .. image:: imgs-user-story4/eigth.jpg
+
+    As you can see in this picture:
+    .. image:: imgs-user-story4/nine.jpg
+
+    ``1 - Name and results.``
+
+    ``2 - Filter and search bar.``
+
+    ``3 - Attributes.``
+
+    ``4 - People in charge of this data.``
+
+    In this way, you can have your data always updated to always guarantee good quality in it, 
+    because you can know who oversees it and ask them to clean it up.
+
+    Benefits
+
+    **1 – Great insight into data quality.**
+
+    **2 – Easy to find the person in charge of the data.**
