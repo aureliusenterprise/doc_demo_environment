@@ -2,12 +2,18 @@ Simple ways to get your data in
 ===============================
 .. _simple:
 
+.. role:: hidden
+   :class: hidden
+
+:hidden:`My Arbitrary Location`
+"""""""""""""""""""""""""""""""
+
 You can experience the user stories by yourself :ref:`Clicking here<indexStory>`.
 The demo environment is read only, thus you will not be able to modify or create concepts yourself.
 There are three ways to get data into the solution:
 
 **1.Creating Entities manually in the front end.**
---------------------------------------------------
+
 
 .. image:: imgs-simple/1.jpg
 
@@ -43,7 +49,7 @@ Once you log in, this is what the demo Environment looks like.
 
 
 **2.Use an excel data dictionary that can bulk push multiple entities at once.**
---------------------------------------------------------------------------------
+
 
 
 
@@ -56,7 +62,7 @@ Once you log in, this is what the demo Environment looks like.
 
 
 **3.Use the Lineage REST API that can be connected to directly with a  script or infrastructure.**
---------------------------------------------------------------------------------------------------
+
 
 
 The Lineage REST API, provides various endpoints to get and create (post) entities of  different entity types. 
@@ -80,21 +86,5 @@ Extedending an option you can see the expected payload or body that can be sent 
 .. image:: imgs-simple/7.jpg
 
 
-* :ref:`Users can find data and related context fast<userStory1>`
 
-* :ref:`Managing data pipelines with full lineage<userStory2>`
-
-* :ref:`Cross data platform data governance<userStory3>`
-
-
-
-.. toctree::
-      :hidden:
-      :caption: Menu
-
-      user-story-1
-      user-story-2
-      user-story-3
-      user-story-4
-      user-story-5
       
