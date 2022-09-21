@@ -15,7 +15,7 @@ the Elastic V2 license agreement.
 
 
 .. toctree::
-      :titleonly:
+      :maxdepth: 1
       :caption: MENU
 
       Options/benefits
