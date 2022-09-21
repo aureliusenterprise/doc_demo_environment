@@ -2,11 +2,8 @@ Simple ways to get your data in
 ===============================
 .. _simple:
 
-
-You can experience the user stories by yourself :ref:`Clicking here<indexStory>`
-
+You can experience the user stories by yourself :ref:`Clicking here<indexStory>`.
 The demo environment is read only, thus you will not be able to modify or create concepts yourself.
-
 There are three ways to get data into the solution:
 
 **1.Creating Entities manually in the front end.**
@@ -83,4 +80,10 @@ Extedending an option you can see the expected payload or body that can be sent 
 .. image:: imgs-simple/7.jpg
 
 
+.. toctree::
+      :hidden:
 
+            :ref:`1.Creating Entities manually in the front end<entity1>`.
+            :ref:`2.Use an excel data dictionary that can bulk push multiple entities at once<entity2>`.
+            :ref:`3.Use the Lineage REST API that can be connected to directly with a  script or infrastructure<entity3>`.
+      
