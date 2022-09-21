@@ -1,6 +1,6 @@
 Keep track of your data quality
 ===============================
-.. _userStory6:
+.. _userStory5:
 
 .. raw:: html
 
@@ -22,7 +22,7 @@ Step by step guide
  
 Let’s start from the business context card 
 
-.. image:: imgs-user-story6/one.jpg
+.. image:: imgs-user-story5/one.jpg
 
 ``1 – Click on start browsing data domains.`` 
 
@@ -30,21 +30,21 @@ Let’s start from the business context card
 On the side of each card in the search, 
 you can see a little icon that determines if the information about this entity is complete or not. 
 
-.. image:: imgs-user-story6/two.jpg
+.. image:: imgs-user-story5/two.jpg
 
 ``1 - Data type.``
 
 ``2 -  This checkmark means the entity is fully populated.``
 
-.. image:: imgs-user-story6/three.jpg
+.. image:: imgs-user-story5/three.jpg
 
 ``2 - This warning symbol means that the entity is not filled.``
 
-.. image:: imgs-user-story6/four.jpg
+.. image:: imgs-user-story5/four.jpg
 
 Let’s click on Logistics entity 
 
-.. image:: imgs-user-story6/five.jpg
+.. image:: imgs-user-story5/five.jpg
 
 Once there let’s go to the Governance Quality Rules: 
 
@@ -52,7 +52,7 @@ Once there let’s go to the Governance Quality Rules:
 
 ``2 – Select Governance Quality Rules.``
 
-.. image:: imgs-user-story6/six.jpg
+.. image:: imgs-user-story5/six.jpg
 
 This indicates to the person responsible if the entity is complete or not, 
 in this example we see that the data domain has no data entities. 

@@ -15,4 +15,9 @@ Use the link below to sign in or :ref:`Click here<indexStory>` to learn more abo
 
 
 .. image:: imgs-acess/login.jpg
+     
 
+Once you are log in, this is how the demo Environment looks like.
+
+
+.. image:: imgs-acess/screen.jpg

@@ -7,8 +7,8 @@ Find data fast and observed quality metrics
     <iframe width="560" height="315" src="https://www.youtube.com/embed/QBZ80l5jpvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-User _userStory4
-----------------
+User Story
+----------
 
 As a user, you can be interested in having a clear vision of the quality of your data and how you can obtain the best quality from it.
 Let’s look for some data, found a data set and go to its page.

@@ -16,7 +16,7 @@ Furthermore, for each of the User stories you will find:
 
 Each of the user stories can be executed by **yourself** using the demo environment.
 
-``!NOTE: Gmail account is needed to Sign in.``
+
 
 **User stories**
 
@@ -29,7 +29,7 @@ Each of the user stories can be executed by **yourself** using the demo environm
 
 * :ref:`Find data fast and observed quality metrics​<userStory4>`
 
-* :ref:`Keep track of your data quality ​<userStory6>`
+* :ref:`Keep track of your data quality ​<userStory5>`
 
 
 
@@ -42,6 +42,6 @@ Each of the user stories can be executed by **yourself** using the demo environm
       user-story-2
       user-story-3
       user-story-4
-      user-story-6
+      user-story-5
 
 
