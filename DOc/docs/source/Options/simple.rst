@@ -2,6 +2,10 @@ Simple ways to get your data in
 ===============================
 .. _simple:
 
+
+You can experience the user stories by yourself `Clicking here<indexStory>`__
+The demo environment is read only, thus you will not be able to modify or create concepts yourself.
+
 There are three ways to get data into the solution:
 
 **1.Creating Entities manually in the front end.**
@@ -58,7 +62,7 @@ Once you log in, this is what the demo Environment looks like.
 
 
 The Lineage REST API, provides various endpoints to get and create (post) entities of  different entity types. 
-To see the full list of the endpoints available and the required request fields, take a look at the Lineage REST API swagger. 
+To see the full list of the endpoints available and the required request fields, take a look at the **Lineage REST API swagger**. 
 (link to swagger)  
 A business can collect the metadata during creation or retrospectively during scanning form their tecnnology, 
 and this can connect the API, to push the data to the solution.
