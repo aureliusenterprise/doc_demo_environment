@@ -15,7 +15,7 @@ the Elastic V2 license agreement.
 
 
 .. toctree::
-      :includehidden:
+      :hidden:
 
       Options/benefits
       Options/simple
