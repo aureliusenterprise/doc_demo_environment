@@ -2,7 +2,7 @@ User stories solved by Aurelius Atlas
 =====================================
 .. _indexStory:
 
-Here is a list of most common challenges in you will find in most
+Here is a list of most common challenges that you will find in most
 companies.
 
 Each of those business challenges is approached from a user story
