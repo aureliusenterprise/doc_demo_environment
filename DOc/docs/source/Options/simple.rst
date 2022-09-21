@@ -80,5 +80,21 @@ Extedending an option you can see the expected payload or body that can be sent 
 .. image:: imgs-simple/7.jpg
 
 
+* :ref:`Users can find data and related context fast<userStory1>`
 
+* :ref:`Managing data pipelines with full lineage<userStory2>`
+
+* :ref:`Cross data platform data governance<userStory3>`
+
+
+
+.. toctree::
+      :hidden:
+      :caption: Menu
+
+      user-story-1
+      user-story-2
+      user-story-3
+      user-story-4
+      user-story-5
       
