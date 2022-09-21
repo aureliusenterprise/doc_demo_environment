@@ -5,7 +5,7 @@ Find data fast and observed quality metrics
 
 **COMING SOON.....**
 
-.. image:: imgs/404.jpg
+.. image:: imgs-acess/404.jpg
 
 
 ..

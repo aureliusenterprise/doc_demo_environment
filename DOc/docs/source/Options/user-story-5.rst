@@ -5,7 +5,7 @@ Keep track of your data quality
 
 **COMING SOON.....**
 
-.. image:: imgs/404.jpg
+.. image:: imgs-acess/404.jpg
 
 
 .. 
