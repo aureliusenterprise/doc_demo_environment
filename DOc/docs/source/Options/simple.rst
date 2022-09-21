@@ -83,7 +83,7 @@ Extedending an option you can see the expected payload or body that can be sent 
 .. toctree::
       :hidden:
 
-            :ref:`1.Creating Entities manually in the front end<entity1>`.
-            :ref:`2.Use an excel data dictionary that can bulk push multiple entities at once<entity2>`.
-            :ref:`3.Use the Lineage REST API that can be connected to directly with a  script or infrastructure<entity3>`.
+      :ref:`1.Creating Entities manually in the front end<entity1>`.
+      :ref:`2.Use an excel data dictionary that can bulk push multiple entities at once<entity2>`.
+      :ref:`3.Use the Lineage REST API that can be connected to directly with a  script or infrastructure<entity3>`.
       
