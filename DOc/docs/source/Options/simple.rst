@@ -5,6 +5,7 @@ Simple ways to get your data in
 There are three ways to get data into the solution:
 
 **1.Creating Entities manually in the front end.**
+
 .. _entity1:
 
 .. image:: imgs-simple/1.jpg
@@ -42,6 +43,7 @@ Once you fill all the information, you get the entity created
 
 
 **2.Use an excel data dictionary that can bulk push multiple entities at once.**
+
 .. _entity2:
 
 
@@ -55,6 +57,7 @@ Once you fill all the information, you get the entity created
 
 
 **3.Use the Lineage REST API that can be connected to directly with a  script or infrastructure.**
+
 .. _entity3:
 
 
@@ -81,7 +84,7 @@ Extedending an option you can see the expected payload or body that can be sent 
 
 
 .. toctree::
-      :caption: Menu
+      
 
       * :ref:`Creating Entities manually in the front end.<entity1>`
       * :ref:`Use an excel data dictionary that can bulk push multiple entities at once.<entity2>`
