@@ -3,7 +3,7 @@ Simple ways to get your data in
 .. _simple:
 
 
-You can experience the user stories by yourself `Clicking here<indexStory>`__
+You can experience the user stories by yourself `Clicking here <indexStory>`__
 The demo environment is read only, thus you will not be able to modify or create concepts yourself.
 
 There are three ways to get data into the solution:
