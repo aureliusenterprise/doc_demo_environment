@@ -20,7 +20,8 @@ the Elastic V2 license agreement.
       :caption: Menu
 
       Options/benefits
+      Options/simple
       Options/acess
       Options/story
-
+      Options/deploy
     

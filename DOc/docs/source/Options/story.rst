@@ -2,7 +2,7 @@ User stories solved by Aurelius Atlas
 =====================================
 .. _indexStory:
 
-Here is a list of most common challenges in you will find in most
+Here is a list of most common challenges that you will find in most
 companies.
 
 Each of those business challenges is approached from a user story
@@ -14,9 +14,10 @@ Furthermore, for each of the User stories you will find:
 
 -  **Video that shows you step by step how to use Aurelius Atlas for the user story**
 
-Each of the user stories can be executed by **yourself** using the demo environment.
+Each of the user stories can be executed by **yourself** using the demo environment,         
+To be able to execute these use cases you have to login the `demo environment <https://aureliusdev.westeurope.cloudapp.azure.com/demo/atlas/>`__
 
-``!NOTE: Gmail account is needed to Sign in.``
+
 
 **User stories**
 
@@ -29,9 +30,7 @@ Each of the user stories can be executed by **yourself** using the demo environm
 
 * :ref:`Find data fast and observed quality metrics​<userStory4>`
 
-* :ref:`Simple ways to get your data in ​<userStory5>`
-
-* :ref:`Keep track of your data quality ​<userStory6>`
+* :ref:`Keep track of your data quality ​<userStory5>`
 
 
 
@@ -45,6 +44,5 @@ Each of the user stories can be executed by **yourself** using the demo environm
       user-story-3
       user-story-4
       user-story-5
-      user-story-6
 
 
