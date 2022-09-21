@@ -2,11 +2,7 @@ Simple ways to get your data in
 ===============================
 .. _simple:
 
-.. role:: hidden
-   :class: hidden
 
-:hidden:`My Arbitrary Location`
-"""""""""""""""""""""""""""""""
 
 You can experience the user stories by yourself :ref:`Clicking here<indexStory>`.
 The demo environment is read only, thus you will not be able to modify or create concepts yourself.
