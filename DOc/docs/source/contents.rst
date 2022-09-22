@@ -16,14 +16,15 @@ the Elastic V2 license agreement.
 
 
 .. toctree::
-      :hidden:
-      :caption: Menu
+      :maxdepth: 1
+      :caption: Contents
 
       Options/benefits
       Options/acess
       Options/story
       Options/deploy
       Options/simple
+
 
 
 
