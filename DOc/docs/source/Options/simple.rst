@@ -39,7 +39,7 @@ Let’s have a close look to the creation entity page
 ``5 – Save button.``
 
 
-Once you log in, this is what the demo Environment looks like.
+Once the fields are filled in, you save and have your entity created.
 
 .. image:: imgs-simple/3.1.jpg
 
