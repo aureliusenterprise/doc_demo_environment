@@ -24,10 +24,3 @@ the Elastic V2 license agreement.
       Options/story
       Options/deploy
       Options/simple
-
-
-
-
-
-
-    
