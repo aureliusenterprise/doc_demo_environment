@@ -17,17 +17,17 @@ the data is stored and whom to ask to get access to the data.**
 
 In an organization without data governance tooling in place, the person
 will start contacting various people, asking for the availability of
-data, where the data is stored and how she can get access to the data.
-The longer you are in organization and the more people you know the
-easier the task, anyhow, **it will take a long time**. Even when you have
+data, where the data is stored and how they can get access to the data.
+The longer you are in an organization and the more people you know the
+easier the task. Anyhow, **it will take a long time**. Even when you have
 found the right data, and found the accountable person to provide
 access, you must sit with the owner of the data to get a good
 explanation of the meaning of the different fields. For engineers with a
-lesser network in the organization the task will be even more tedious
+smaller network in the organization the task will be even more tedious
 and time consuming.
 
 **Aurelius Atlas makes the information on which data is available, where
-it is stored and who is accountable for it easily accessible. Which
+it is stored and who is accountable for it, which
 results in quicker access to relevant data.**
 
 With the **Aurelius Atlas solution you can easily search for the meaning
@@ -37,14 +37,14 @@ are provided.
 
 To illustrate the process of finding relevant information, the location
 of the data and the accountable person, the following scenario is
-described: A data engineer is working in a HR project investigating the
+described: A data engineer is working in an HR project investigating the
 use of **permanent employees**. To answer the related business
-questions, she needs data about employees in the organization.
+questions, they need data about employees in the organization.
 
-To find the required information she accesses Aurelius Atlas application
-and searches for data with a meaning related to “employee”. Thus, in the
-business context of the application she is entering the search term
-“employee” and starts the search.
+To find the required information they access Aurelius Atlas application
+and search for data with a meaning related to “employee”. Thus, in the
+business context of the application they are entering the search term
+**“employee”** and starts the search.
 
 Step by step guide
 ------------------
