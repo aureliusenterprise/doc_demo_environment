@@ -44,7 +44,7 @@ questions, they need data about employees in the organization.
 To find the required information they access Aurelius Atlas application
 and search for data with a meaning related to “employee”. Thus, in the
 business context of the application they are entering the search term
-**“employee”** and starts the search.
+**“employee”** and this starts the search.
 
 Step by step guide
 ------------------
@@ -56,14 +56,14 @@ Step by step guide
 
 ``1 – The context that you are working on.``
 
-``2- Info icon, that gives you information about the context.``
+``2 - More information about the context.``
 
-``3 – Search bar for looking for the meaning of data.``
+``3 – Looking for the meaning of data.``
 
 
 By hitting the search icon, you will get a list of possible concepts.
 
-As you can see in the screen shoot below:
+As you can see in the screenshot below:
 
 .. image:: imgs-user-story/second.jpg 
 
@@ -73,10 +73,10 @@ As you can see in the screen shoot below:
 
 ``2 – Results of the search.``
 
-   The data engineer is not looking for specific fields, but for
-   entities representing employees, thus she filters those results on
-   **data entities** to be more concrete and narrow the search. Applying
-   the filter reduces the result to 4 entities as depicted below.
+The data engineer is not looking for specific fields, but for
+entities representing employees, thus they filter those results on
+**data entities** to be more concrete. Applying
+the filter reduces the result to 4 entities as depicted below.
 
 
 .. image:: imgs-user-story/third.jpg 
@@ -90,8 +90,8 @@ concept **Internal** is a child entity of the entity **Personnel.**
 
 
 
-Since the data engineer is interested in permanent employees, she
-selects the entity "Internal”.
+Since the data engineer is interested in permanent employees, they
+select the entity "Internal”.
 
 Thus, all details of the entity “Internal” are shown as depicted
 below.
@@ -99,23 +99,22 @@ below.
 .. image:: imgs-user-story/fifth.jpg 
 
 
-``1. Name and type of entity: Gives information about the entity and what type it is``
+``1. Name and type of the entity.``
 
-``2. Business hierarchy: Shows where it is inside the domain``
+``2. Business hierarchy: Shows which domain this entity is related to.``
 
-``3. Description: Provide information about the entity``
+``3. Description.``
 
-``4. People that oversee this data: People that oversee this data``
+``4. People responsible for this data.``
 
-``5. Summary of page structure: Quick view of all the elements of the page``
+``5. Summary of all the elements of the page.``
 
-``6. Button: to navigate for the structure of the page``
-
+``6. Button to navigate through each section quickly.``
 
 
 Now you can see that the Business Owner of the data is **Merel Hofman,**
-thus, to get access to the data you have to ask permission from
-Merel. Still the data engineer does not know where the data is
+to get access to the data, you need to ask permission from
+Merel. The data engineer still does not know where the data is
 stored.
 
 In the summary of the page you can see that there’s one place where
@@ -134,8 +133,6 @@ Let’s go to this section, to see where the data are stored:
 
 
 
-Once the datasets section is visible.
-
 .. image:: imgs-user-story/eigth.jpg 
 
 
@@ -145,11 +142,11 @@ Here you can see an overview of where your data is stored:
 
 ``1 – Results of the datasets.``
 
-``2 – Name of the dataset and where is in the hierarchy: Name of the database table and where is located``
+``2 – Name of the dataset and where it is located in the hierarchy.``
 
-``3 – Filter: to filter down in the datasets.``
+``3 – Filter down the datasets.``
 
-``4 – Search bar: to look for the entities inside this dataset.``
+``4 – Look for the entities inside this dataset.``
 
 ``5 – Type of storage.``
 
@@ -161,14 +158,14 @@ located on a system called **NL1**.
 
 To get more details about the database table **NL1-HR-001**, click on it.
 Please be aware that we are moving from the business aspects of the data
-to the technical aspects of the data.
+to the technical aspects of the data (indicating with blue icons).
 
 .. image:: imgs-user-story/eleven.jpg 
 
 
 This is all the information that you need to get access to the data of
 the internal entity, now you know that the person in charge of this data
-is Merel Hofman, and the data is located in the database table
+is **Merel Hofman**, and the data is located in the database table
 **NL1-HR-001**, and this is how Aurelius Atlas Data governance solution can
 help you get it in a fast and easy way.
 
@@ -179,6 +176,6 @@ Benefits:
 
 **2 – Clear vision of who is accountable for this data**
 
-**3 – Detail view of where is stored this data**
+**3 – Detailed view of where this data is stored**
 
 **4 - Have all the knowledge about your data**

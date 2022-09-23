@@ -19,22 +19,21 @@ What we see here is that the quality is not a hundred percent.
 Step by step guide
 ------------------
 
-.. image:: imgs-user-story4/first.jpg
+.. image:: imgs-user-story4/second.jpg
 
-Let’s go to this section, to see the fields:
+In this section, you can see the fields:
 
 ``1 - Press on the button.``
 
 ``2 – Select Fields.``
 
-.. image:: imgs-user-story4/second.jpg
 
-Here we can see the quality of each field and identify where the quality is not being met.
+Here we can see the quality of each field and identify where the quality is not up to standar.
 
 .. image:: imgs-user-story4/third.jpg
 
 If your project only requires **FTE** and **location** fields in which the quality is high, 
-you can ignore the bad quality of the unrelated fields.
+you can ignore the lower quality of the unrelated fields.
 
 .. image:: imgs-user-story4/fourth.jpg
 
@@ -43,14 +42,15 @@ you can notice that the precision is low.
 
 .. image:: imgs-user-story4/fifth.jpg
 
-Let’s go to the Data Quality Rules:
+
+
+.. image:: imgs-user-story4/six.jpg
+
+Let’s go to the Data Quality Rules
 
 ``1 - Press on the button.``
 
 ``2 – Select Data Quality Rules.``
-
-
-.. image:: imgs-user-story4/six.jpg
 
 
 You can see that the syntax of the field is not always being followed.
@@ -59,13 +59,16 @@ You can see that the syntax of the field is not always being followed.
 
 With this information, you can now understand the limitations of the dataset.
 
-Let’s go to the Data Attributes:
+Let’s go to the Data Attributes
+
 ``1 - Press on the button.``
+
 ``2 – Select Data Attributes.``
 
 .. image:: imgs-user-story4/eigth.jpg
 
-As you can see in this picture:
+As you can see in this picture
+
 .. image:: imgs-user-story4/nine.jpg
 
 ``1 - Name and results.``
@@ -76,7 +79,7 @@ As you can see in this picture:
 
 ``4 - People in charge of this data.``
 
-In this way, you can have your data always updated to always guarantee good quality in it, 
+This way, your data is always updated and you're guaranteed better quality, 
 because you can know who oversees it and ask them to clean it up.
 
 Benefits
