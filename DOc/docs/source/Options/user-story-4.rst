@@ -35,7 +35,7 @@ Step by step guide
 
 In this section, you can see the fields:
 
-``1 - Dataa quality.``
+``1 - Data quality.``
 
 ``2 – Press on the button.``
 
