@@ -31,7 +31,7 @@ making it look like readable English. Many desktop publishing packages and web p
 Step by step guide
 ------------------
 
-.. image:: imgs-user-story4/one.jpg
+.. image:: imgs-user-story4/firts.jpg
 
 
 
