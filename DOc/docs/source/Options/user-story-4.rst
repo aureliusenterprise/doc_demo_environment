@@ -33,7 +33,7 @@ Step by step guide
 
 .. image:: imgs-user-story4/one.jpg
 
-In this section, you can see the fields:
+
 
 ``1 - Data quality.``
 

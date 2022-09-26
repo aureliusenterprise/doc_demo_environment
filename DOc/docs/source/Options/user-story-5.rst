@@ -11,11 +11,21 @@ Keep track of your data quality
 User story
 ----------
 
-Aurelius Atlas Data Governance Solution provides the person in charge of a data set with checking which government information has been filled in correctly, 
-so you can define governance quality rules in the government system. 
-This gives the person responsible for archiving that information and monitoring it as a business owner the idea of whether everyone has done that and 
-what the quality of the government data that has been recorded is from structural a point of view. 
-Completing data governance information can be overwhelming, so the tool can help determine how this process is passing through data governance quality checks. 
+What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+orem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
+like Aldus PageMaker including versions of Lorem Ipsum.
+
+Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', 
+making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 
+'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose 
+(injected humour and the like).
+ 
 
 
 Step by step guide
