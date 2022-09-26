@@ -70,8 +70,8 @@ in this example we see that the data domain has no data entities.
 
 **Benefits**  
 
-``1 – See how well data governance has been applied.`` 
+**1 – See how well data governance has been applied.**
 
-``2 – Control about your data.`` 
+**2 – Control about your data.**
 
-``3  – Empower business decisions.``
+**3  – Empower business decisions.**

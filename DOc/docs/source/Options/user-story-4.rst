@@ -96,7 +96,7 @@ As you can see in this picture
 This way, your data is always updated and you're guaranteed better quality, 
 because you can know who oversees it and ask them to clean it up.
 
-Benefits
+**Benefits**
 
 **1 – Great insight into data quality.**
 

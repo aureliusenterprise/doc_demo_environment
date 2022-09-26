@@ -169,8 +169,8 @@ is **Merel Hofman**, and the data is located in the database table
 **NL1-HR-001**, and this is how Aurelius Atlas Data governance solution can
 help you get it in a fast and easy way.
 
-Benefits:
 
+**Benefits**
 
 **1 – Look for data in an easy and fast way**
 

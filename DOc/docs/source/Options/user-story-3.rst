@@ -98,7 +98,7 @@ to access it, let’s click on the last event of the **lineage model**.
 ``3 - Kibana dashboard.`` 
 
 
-Benefits 
+**Benefits**
 
 **1– Lineage graph shows database -> Kafka -> Elastic**
 
