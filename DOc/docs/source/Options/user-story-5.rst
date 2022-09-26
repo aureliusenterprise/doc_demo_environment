@@ -57,7 +57,7 @@ Let’s click on Logistics entity
 
 .. image:: imgs-user-story5/five.jpg
 
-Once there let’s go to the Governance Quality Rules: 
+Once there let’s go to the Governance Quality Rules
 
 ``1 - Press on the button.``
 
@@ -66,7 +66,7 @@ Once there let’s go to the Governance Quality Rules:
 .. image:: imgs-user-story5/six.jpg
 
 This indicates to the person responsible if the entity is complete or not, 
-in this example we see that the data domain has no data entities. 
+in this example, you see that the data domain has no data entities. 
 
 **Benefits**  
 
