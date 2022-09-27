@@ -1,12 +1,10 @@
-Find data fast and observed quality metrics
-===========================================
+Find data fast and observe quality metrics
+==========================================
 .. _userStory4:
 
-
-**COMING SOON.....**
+**COMING SOON** 
 
 .. image:: imgs-acess/404.jpg
-
 
 ..
     .. raw:: html
@@ -16,31 +14,44 @@ Find data fast and observed quality metrics
 
     User Story
     ----------
+    What is Lorem Ipsum?
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    orem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
+    like Aldus PageMaker including versions of Lorem Ipsum.
 
-    As a user, you can be interested in having a clear vision of the quality of your data and how you can obtain the best quality from it.
-    Let’s look for some data, found a data set and go to its page.
-    You have, an overview of the overall data quality of the data set can be seen.
-    What we see here is that the quality is not a hundred percent.
+    Why do we use it?
+    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', 
+    making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 
+    'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose 
+    (injected humour and the like).
+
+
+
 
     Step by step guide
     ------------------
 
-    .. image:: imgs-user-story4/first.jpg
+    .. image:: imgs-user-story4/firts.jpg
 
-    Let’s go to this section, to see the fields:
 
-    ``1 - Press on the button.``
 
-    ``2 – Select Fields.``
+    ``1 - Data quality.``
 
-    .. image:: imgs-user-story4/second.jpg
+    ``2 – Press on the button.``
 
-    Here we can see the quality of each field and identify where the quality is not being met.
+    ``3 - Selec Fields.``
+
+
+    Here we can see the quality of each field and identify where the quality is not up to standard.
 
     .. image:: imgs-user-story4/third.jpg
 
     If your project only requires **FTE** and **location** fields in which the quality is high, 
-    you can ignore the bad quality of the unrelated fields.
+    you can ignore the lower quality of the unrelated fields.
 
     .. image:: imgs-user-story4/fourth.jpg
 
@@ -49,14 +60,15 @@ Find data fast and observed quality metrics
 
     .. image:: imgs-user-story4/fifth.jpg
 
-    Let’s go to the Data Quality Rules:
+
+
+    .. image:: imgs-user-story4/six.jpg
+
+    Let’s go to the Data Quality Rules
 
     ``1 - Press on the button.``
 
     ``2 – Select Data Quality Rules.``
-
-
-    .. image:: imgs-user-story4/six.jpg
 
 
     You can see that the syntax of the field is not always being followed.
@@ -65,13 +77,16 @@ Find data fast and observed quality metrics
 
     With this information, you can now understand the limitations of the dataset.
 
-    Let’s go to the Data Attributes:
-    1 - Press on the button
-    2 – Select Data Attributes.
+    Let’s go to the Data Attributes
 
     .. image:: imgs-user-story4/eigth.jpg
 
+    ``1 - Press on the button.``
+
+    ``2 – Select Data Attributes.``
+
     As you can see in this picture:
+
     .. image:: imgs-user-story4/nine.jpg
 
     ``1 - Name and results.``
@@ -82,10 +97,10 @@ Find data fast and observed quality metrics
 
     ``4 - People in charge of this data.``
 
-    In this way, you can have your data always updated to always guarantee good quality in it, 
+    This way, your data is always updated and you're guaranteed better quality, 
     because you can know who oversees it and ask them to clean it up.
 
-    Benefits
+    **Benefits**
 
     **1 – Great insight into data quality.**
 

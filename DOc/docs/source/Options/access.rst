@@ -1,5 +1,5 @@
-How to acess the Demo Environment
-=================================
+How to access the Demo Environment
+==================================
 
 Use the link below to sign in or :ref:`Click here<indexStory>` to learn more about user stories.
 
@@ -17,7 +17,7 @@ Use the link below to sign in or :ref:`Click here<indexStory>` to learn more abo
 .. image:: imgs-acess/login.jpg
      
 
-Once you are log in, this is how the demo Environment looks like.
+Once you are logged in, this is how the demo ewnvironment looks like.
 
 
 .. image:: imgs-acess/screen.jpg

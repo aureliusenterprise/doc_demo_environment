@@ -15,17 +15,17 @@ By using Aurelius Atlas, data governance information from various independent sy
 This way, Aurelius Atlas becomes the google for the organizations data management.  
 
 To illustrate the process of finding relevant information across various system the following scenario is used:
-An implementer of data pipeline, you want to update schema of a particular table,
+As implementer of data pipeline, you want to update schema of a particular table,
 so you want to know who is using the data and where are this different data being used to make sure that they also adjust their schema and the subsequent pipelines. 
 
 Step by step guide
 ------------------
-In the `previous demo <userStory2>`__, you saw a linage example where data was flowing across different platforms 
+In the `previous demo <userStory2>`__, you saw a lineage example where data was flowing across different platforms 
 
 .. image:: imgs-user-story3/1.jpg
 
 
-In this specific case data is acquired from a **relational database**
+In this specific case, data is acquired from a **relational database**
 
 
 .. image:: imgs-user-story3/2.jpg
@@ -66,7 +66,7 @@ Then the data is stored as a state in elastic search storage
 ``4 – Converted into an Elastic index.``
 
 
-In the **linage graph** of **NL1-HR-001** the implementor sees three different systems: a **SQL server**, a **Kafka system** and an **Elastic system**.
+In the **lineage graph** of **NL1-HR-001** the implementor sees three different systems: a **SQL server**, a **Kafka system** and an **Elastic system**.
 All data is consistently recorded across the different environments in **Aurelius Atlas**. 
 
 
@@ -85,7 +85,7 @@ Let’s click on **hr**, to see specific information related to this entity
  
 
 The available data is then visualized in a **Kibana dashboard**,
-to access to it, let’s click on the last event of the **lineage model**. 
+to access it, let’s click on the last event of the **lineage model**. 
 
 
 .. image:: imgs-user-story3/7.jpg
@@ -98,7 +98,7 @@ to access to it, let’s click on the last event of the **lineage model**.
 ``3 - Kibana dashboard.`` 
 
 
-Benefits 
+**Benefits**
 
 **1– Lineage graph shows database -> Kafka -> Elastic**
 
