@@ -27,7 +27,18 @@ Data quality is typically measured along the following dimensions:
 | Uniqueness   | Whether or not values that need to be unique, actually are unique. For example, every employee should have a unique ID. |
 | Validity     | Whether or not the data fits with a predefined format. For example, a person's initials should always be capitalized.   |
 
-Further, data quality should be measured at every system where the data is stored, since data transformations can cause data quality to change.
+For every dimension, one or more data quality rules can be defined.
+For every rule, a percentage score is assigned. 
+A score of 100% indicates that the dataset is perfectly compliant with that particular rule.
+
+A lower data quality score for a particular rule indicates that there are data quality issues.
+The impact and consequences of these issues depends on the characteristics of the dataset.
+
+Typically, manually entered data tends to be of lesser quality than automatically generated data.
+Improving the data quality of manually entered data tends to involve the education of people and process improvements.
+Meanwhile, lower data quality scores for automatically generated data may indicate a bug in the system.
+
+Data quality should be measured at every system where the data is stored, since data transformations can cause data quality to change.
 If there are data quality issues, these should be solved at the point where the data quality issues are introduced.
 This is typically at the place where the master data is stored.
 
