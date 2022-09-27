@@ -35,7 +35,7 @@ Let’s start from the business context card
 
 .. image:: imgs-user-story5/one.jpg
 
-``1 – Click on start browsing data domains.`` 
+``1 – Click on "start browsing data domains".`` 
 
     
 On the side of each card in the search, 
@@ -72,6 +72,6 @@ in this example, you see that the data domain has no data entities.
 
 **1 – See how well data governance has been applied.**
 
-**2 – Control about your data.**
+**2 – Control your data.**
 
 **3  – Empower business decisions.**

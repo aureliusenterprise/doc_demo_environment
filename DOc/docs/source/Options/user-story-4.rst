@@ -1,5 +1,5 @@
-Find data fast and observed quality metrics
-===========================================
+Find data fast and observe quality metrics
+==========================================
 .. _userStory4:
 
 
@@ -42,7 +42,7 @@ Step by step guide
 ``3 - Selec Fields.``
 
 
-Here we can see the quality of each field and identify where the quality is not up to standar.
+Here we can see the quality of each field and identify where the quality is not up to standard.
 
 .. image:: imgs-user-story4/third.jpg
 
@@ -75,13 +75,13 @@ With this information, you can now understand the limitations of the dataset.
 
 Let’s go to the Data Attributes
 
+.. image:: imgs-user-story4/eigth.jpg
+
 ``1 - Press on the button.``
 
 ``2 – Select Data Attributes.``
 
-.. image:: imgs-user-story4/eigth.jpg
-
-As you can see in this picture
+As you can see in this picture:
 
 .. image:: imgs-user-story4/nine.jpg
 
