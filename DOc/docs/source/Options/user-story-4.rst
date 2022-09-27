@@ -10,22 +10,32 @@ Find data fast and observed quality metrics
 
 User Story
 ----------
-What is Lorem Ipsum?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-orem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
-like Aldus PageMaker including versions of Lorem Ipsum.
 
-Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
-The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', 
-making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 
-'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose 
-(injected humour and the like).
+Next to data governance, data quality is another core pillar of data management. 
+Good data quality helps make data more useful and usable, resulting in better business outcomes.
+Meanwhile, bad data quality limits the value of data, and results in worse business outcomes. 
 
+Data quality can be measured in many ways. 
+It is the responsibility of the data governance organisation to define data quality metrics.
+Data quality is typically measured along the following dimensions:
 
+| Dimension    | Description                                                                                                             |
+|--------------|-------------------------------------------------------------------------------------------------------------------------|
+| Accuracy     | Whether or not the data contains errors. For example, a person's name should always be correct.                         |
+| Completeness | Whether or not each row of the data has a value. For example, a person should always have a name.                       |
+| Timeliness   | Whether or not the data is up to date. For example, the data should only include people currently employed.             |
+| Uniqueness   | Whether or not values that need to be unique, actually are unique. For example, every employee should have a unique ID. |
+| Validity     | Whether or not the data fits with a predefined format. For example, a person's initials should always be capitalized.   |
+
+Further, data quality should be measured at every system where the data is stored, since data transformations can cause data quality to change.
+If there are data quality issues, these should be solved at the point where the data quality issues are introduced.
+This is typically at the place where the master data is stored.
+
+Aurelius Atlas allows for the discovery and insight of your organisation's data quality across data sources.
+This allows for better business outcomes for users of data.
+The tool also allows the people responsible for data quality to do root cause analysis of data quality issues.
+
+The following example demonstrates how data of good quality is discovered by a data scientist.
 
 
 Step by step guide
