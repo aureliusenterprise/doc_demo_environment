@@ -2,7 +2,7 @@ How to deploy Aurelius Atlas
 ============================
 
 Getting started
-===============
+---------------
 
 Welcome to the Aurelius Atlas solution powered by Apache Atlas! Aurelius
 Atlas is an open-source Data Governance solution, based on a selection
@@ -11,7 +11,7 @@ information in an easy consumable way and meet the data governance
 demands of the distributed data world.
 
 Google Setup Instructions
-=========================
+-------------------------
 
 Install Gcloud https://cloud.google.com/sdk/docs/install#deb
 
@@ -21,7 +21,7 @@ https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-access-for-kubect
 follow steps in Installation Instructions
 
 Installation Instructions
-=========================
+-------------------------
 
 This installation assumes that you have: - a kubernetes cluster running
 - with 2 Node of CPU 4 and 16GB - kubectl installed - Chosen cloud Cli
@@ -168,7 +168,7 @@ It is running when Ready is True
 img_1.png
 
 Deploy Aurelius Atlas
-=====================
+---------------------
 
 -  Create the namespace
 -  Update the Values file
@@ -219,4 +219,5 @@ readme <./charts/flink/README.md>`__
 Init Jobs: - Create the Atlas Users in Keycloak - Create the App Search
 Engines in Elastic
 
-``bash ${1} kubectl -n <namespace> exec -it <pod/flink-jobmanager-pod-name> -- bash cd init ./init_jobs.sh ## To Load the Sample Demo Data  ./load_sample_data.sh``
+``bash ${1} kubectl -n <namespace> exec -it <pod/flink-jobmanager-pod-name> 
+-- bash cd init ./init_jobs.sh ## To Load the Sample Demo Data  ./load_sample_data.sh``
