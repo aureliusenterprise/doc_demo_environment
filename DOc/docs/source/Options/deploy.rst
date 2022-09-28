@@ -160,7 +160,7 @@ comment out prod_issuer.yaml in templates Check that it is running:
 
 It is running when Ready is True.
 
-img.png
+.. image:: imgs-how-to-deploy/img.png
 
 Create certificate for DSN
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -185,7 +185,7 @@ comment out certificate.yaml in templates Check that it is approved.
 
 It is running when Ready is True
 
-img_1.png
+.. image:: imgs-how-to-deploy/img_1.png
 
 Deploy Aurelius Atlas
 ---------------------
@@ -209,8 +209,13 @@ Users with Randomized Passwords
 In the helm chart 5 base users are created with randomized passwords
 stored as secrets on kubernetes.
 
-The 5 base users are: 1. Keycloak Admin User 2. Atlas Admin User 3.
-Atlas Data Steward User 4. Atlas Data User 5. Elastic User
+The 5 base users are: 
+
+1. Keycloak Admin User 
+2. Atlas Admin User 
+3. Atlas Data Steward User 
+4. Atlas Data User 
+5. Elastic User
 
 To get the randomized passwords out of kubernetes there is a bash script
 get_passwords. Which scans the given ``<namespace>`` and prints the
@@ -227,16 +232,15 @@ Check that all pods are running
 
    kubectl -n <namespace> get all # check that all pods are running
 
-Atlas is now accessible via reverse proxy at
-``<DNS-url>/<namespace>/atlas/``
+Atlas is now accessible via reverse proxy at ``<DNS-url>/<namespace>/atlas/``
 
 Initialize the Atlas flink tasks and optionally load sample data
 ----------------------------------------------------------------
 
-Flink: - For more details about this flink helm chart look at `flink
-readme <./charts/flink/README.md>`__
+Flink: - For more details about this flink helm chart look at `flink readme <./charts/flink/README.md>`__
 
 Init Jobs: 
+
 - Create the Atlas Users in Keycloak 
 - Create the App Search
   
