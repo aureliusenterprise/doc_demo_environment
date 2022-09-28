@@ -24,6 +24,7 @@ Installation Instructions
 -------------------------
 
 This installation assumes that you have: 
+
 - a kubernetes cluster running
 - with 2 Node of CPU 4 and 16GB 
 - kubectl installed 
@@ -35,9 +36,11 @@ Required Packages
 -----------------
 
 The deployment requires the following packages: 
+
 - Certificate Manager 
 - To handel and manage the creation of certificates 
 - Used in demo:
+  
       - cert-manager 
       - Ingress Controller 
       - Used to create an entry point to the cluster through an external IP. 
@@ -51,8 +54,7 @@ the instructions provided on:
 
 https://www.elastic.co/guide/en/cloud-on-k8s/master/k8s-deploy-eck.html
 
-- For more details about this elastic helm chart look at:
-`elastic readme <./charts/elastic/README.md>`__ 
+For more details about this elastic helm chart look at: `elastic readme <./charts/elastic/README.md>`__ 
 
 - Reflector 
 - Used to reflect secrets across namespaces 
