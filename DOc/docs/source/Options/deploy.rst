@@ -22,26 +22,40 @@ follow steps in Installation Instructions
 Installation Instructions
 -------------------------
 
-This installation assumes that you have: - a kubernetes cluster running
-- with 2 Node of CPU 4 and 16GB - kubectl installed - Chosen cloud Cli
-installed (gcloud or az) - A Domain Name Space - Not necessary for Azure
+This installation assumes that you have: 
+- a kubernetes cluster running
+- with 2 Node of CPU 4 and 16GB 
+- kubectl installed 
+- Chosen cloud Cli installed (gcloud or az) 
+- A Domain Name Space 
+- Not necessary for Azure
 
 Required Packages
 -----------------
 
-The deployment requires the following packages: - Certificate Manager -
-To handel and manage the creation of certificates - Used in demo:
-cert-manager - Ingress Controller - Used to create an entry point to the
-cluster through an external IP. - Used in demo: Nginx Controller -
-Elastic - Used to deploy elastic on the kubernetes cluster - In order to
-deploy elastic, ``Elastic Cluster on Kubernetes (ECK)`` must be
-installed on the cluster. To install ECK on the cluster, please follow
-the instructions provided on
+The deployment requires the following packages: 
+- Certificate Manager 
+- To handel and manage the creation of certificates 
+- Used in demo:
+      - cert-manager 
+      - Ingress Controller 
+      - Used to create an entry point to the cluster through an external IP. 
+      - Used in demo: Nginx Controller 
+      - Elastic 
+      - Used to deploy elastic on the kubernetes cluster 
+      - In order to deploy elastic, ``Elastic Cluster on Kubernetes (ECK)`` must be installed on the cluster. 
+
+To install ECK on the cluster, please follow
+the instructions provided on:
+
 https://www.elastic.co/guide/en/cloud-on-k8s/master/k8s-deploy-eck.html
+
 - For more details about this elastic helm chart look at `elastic
-readme <./charts/elastic/README.md>`__ - Reflector - Used to reflect
-secrets across namespaces - Used in demo to share the DNS certificate to
-different namespace
+readme <./charts/elastic/README.md>`__ 
+
+- Reflector 
+- Used to reflect secrets across namespaces 
+- Used in demo to share the DNS certificate to different namespace
 
 The steps on how to install the required packages
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -98,8 +112,10 @@ Take the external-IP of the ingress controller Link your DNS to this
 external IP.
 
 In Azure, it is possible to apply a dns label to the ingress controller,
-if you do not have a DNS. #### Azure DNS Label
+if you do not have a DNS. **Azure DNS Label**
+
 https://hovermind.com/azure-kubernetes-service/applying-dns-label-to-the-service.html
+
 Edit the ingress controller deployment
 
 .. code:: bash
@@ -112,7 +128,10 @@ Under Annotations add the following providing your desire label :
 
    service.beta.kubernetes.io/azure-dns-label-name: <label>
 
-Save and exit. Resulting DSN will be
+Save and exit. 
+
+Resulting DSN will be: 
+
 ``<label>.westeurope.cloudapp.azure.com``
 
 Certify DNS to Secret
@@ -215,7 +234,10 @@ Initialize the Atlas flink tasks and optionally load sample data
 Flink: - For more details about this flink helm chart look at `flink
 readme <./charts/flink/README.md>`__
 
-Init Jobs: - Create the Atlas Users in Keycloak - Create the App Search
+Init Jobs: 
+- Create the Atlas Users in Keycloak 
+- Create the App Search
+  
 Engines in Elastic
 
 ``bash ${1} kubectl -n <namespace> exec -it <pod/flink-jobmanager-pod-name> 
