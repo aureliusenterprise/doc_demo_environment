@@ -7,7 +7,7 @@ of open-source tools to facilitate business users to access governance
 information in an easy consumable way and meet the data governance
 demands of the distributed data world.
 A detailed description of the underlying technical aspects of the solution and the how to deploy it 
-in different environments is described in the `technical manual<https://docs.models4insight.com/docs/doc-technicall-manual/en/latest/Options/what.html>`__
+in different environments is described in the `technical manual <https://docs.models4insight.com/docs/doc-technicall-manual/en/latest/Options/what.html>`__
 
 Google Setup Instructions
 -------------------------
