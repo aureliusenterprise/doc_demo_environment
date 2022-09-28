@@ -26,11 +26,11 @@ Installation Instructions
 This installation assumes that you have: 
 
 - a kubernetes cluster running
-- with 2 Node of CPU 4 and 16GB 
+     - with 2 Node of CPU 4 and 16GB 
 - kubectl installed 
 - Chosen cloud Cli installed (gcloud or az) 
 - A Domain Name Space 
-- Not necessary for Azure
+     - Not necessary for Azure
 
 Required Packages
 -----------------
@@ -38,27 +38,26 @@ Required Packages
 The deployment requires the following packages: 
 
 - Certificate Manager 
-- To handel and manage the creation of certificates 
-- Used in demo:
   
-      - cert-manager 
-      - Ingress Controller 
-      - Used to create an entry point to the cluster through an external IP. 
-      - Used in demo: Nginx Controller 
-      - Elastic 
-      - Used to deploy elastic on the kubernetes cluster 
-      - In order to deploy elastic, ``Elastic Cluster on Kubernetes (ECK)`` must be installed on the cluster. 
-
-To install ECK on the cluster, please follow
-the instructions provided on:
-
-https://www.elastic.co/guide/en/cloud-on-k8s/master/k8s-deploy-eck.html
-
-For more details about this elastic helm chart look at: `elastic readme <./charts/elastic/README.md>`__ 
+    - To handel and manage the creation of certificates 
+    - Used in demo: cert-manager 
+  
+- Ingress Controller 
+  
+    - Used to create an entry point to the cluster through an external IP. 
+    - Used in demo: Nginx Controller
+   
+- Elastic 
+  
+    - Used to deploy elastic on the kubernetes cluster 
+    - In order to deploy elastic, ``Elastic Cluster on Kubernetes (ECK)`` must be installed on the cluster. 
+      To install ECK on the cluster, please follow the instructions provided on: https://www.elastic.co/guide/en/cloud-on-k8s/master/k8s-deploy-eck.html
+    - For more details about this elastic helm chart look at: `elastic readme <./charts/elastic/README.md>`__ 
 
 - Reflector 
-- Used to reflect secrets across namespaces 
-- Used in demo to share the DNS certificate to different namespace
+
+    - Used to reflect secrets across namespaces 
+    - Used in demo to share the DNS certificate to different namespace
 
 The steps on how to install the required packages
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -115,7 +114,9 @@ Get External IP to link to DNS
 Take the external-IP of the ingress controller Link your DNS to this external IP.
 
 In Azure, it is possible to apply a dns label to the ingress controller,
-if you do not have a DNS. **Azure DNS Label**
+if you do not have a DNS. 
+
+**Azure DNS Label**
 
 https://hovermind.com/azure-kubernetes-service/applying-dns-label-to-the-service.html
 
@@ -131,11 +132,7 @@ Under Annotations add the following providing your desire label :
 
    service.beta.kubernetes.io/azure-dns-label-name: <label>
 
-Save and exit. 
-
-Resulting DSN will be: 
-
-``<label>.westeurope.cloudapp.azure.com``
+Save and exit. Resulting DSN will be: ``<label>.westeurope.cloudapp.azure.com``
 
 Certify DNS to Secret
 ---------------------
@@ -143,10 +140,12 @@ Certify DNS to Secret
 Define a cluster issuer
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Here we define a CLusterIssuer using letsencrypt on the cert-manager
-namespace - move to the directory of the chart helm-governance \*
-uncomment prod_issuer.yaml in templates \* update the ``{{ .Values.ingress.email_address }}`` 
-in Values file \* Create the clusterIssuer with the following command
+Here we define a CLusterIssuer using letsencrypt on the cert-manager namespace 
+
+- move to the directory of the chart helm-governance 
+- uncomment prod_issuer.yaml in templates 
+- update the ``{{ .Values.ingress.email_address }}`` in Values file 
+- Create the clusterIssuer with the following command
 
 .. code:: bash
 
@@ -169,8 +168,7 @@ Create certificate for DSN
    controller
 -  move to the directory of the chart helm-governance
 -  uncomment prod_issuer.yaml in templates
--  update the Values file ``{{ .Values.ingress.dns_url}}`` to your DNS
-   name
+-  update the Values file ``{{ .Values.ingress.dns_url}}`` to your DNS name
 -  Create the certificate with the following command
 
 .. code:: bash
@@ -192,9 +190,9 @@ Deploy Aurelius Atlas
 
 -  Create the namespace
 -  Update the Values file
-
-   -  DNS name
-   -  external IP deploy the services
+- 
+    -  DNS name
+    -  external IP deploy the services
 
 .. code:: bash
 
@@ -237,14 +235,14 @@ Atlas is now accessible via reverse proxy at ``<DNS-url>/<namespace>/atlas/``
 Initialize the Atlas flink tasks and optionally load sample data
 ----------------------------------------------------------------
 
-Flink: - For more details about this flink helm chart look at `flink readme <./charts/flink/README.md>`__
+Flink: 
+
+   - For more details about this flink helm chart look at `flink readme <./charts/flink/README.md>`__
 
 Init Jobs: 
 
-- Create the Atlas Users in Keycloak 
-- Create the App Search
-  
-Engines in Elastic
+   - Create the Atlas Users in Keycloak 
+   - Create the App Search Engines in Elastic
 
 ``bash ${1} kubectl -n <namespace> exec -it <pod/flink-jobmanager-pod-name> 
 -- bash cd init ./init_jobs.sh ## To Load the Sample Demo Data  ./load_sample_data.sh``
