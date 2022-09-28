@@ -12,9 +12,10 @@ in different environments is described in the `technical manual <https://docs.mo
 Google Setup Instructions
 -------------------------
 
-Install Gcloud https://cloud.google.com/sdk/docs/install#deb
+Install Gcloud: https://cloud.google.com/sdk/docs/install#deb
 
-Install kubectl and configure to work with gloud
+Install kubectl and configure to work with gloud:
+
 https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-access-for-kubectl#gcloud
 
 follow steps in Installation Instructions
@@ -50,8 +51,8 @@ the instructions provided on:
 
 https://www.elastic.co/guide/en/cloud-on-k8s/master/k8s-deploy-eck.html
 
-- For more details about this elastic helm chart look at `elastic
-readme <./charts/elastic/README.md>`__ 
+- For more details about this elastic helm chart look at:
+`elastic readme <./charts/elastic/README.md>`__ 
 
 - Reflector 
 - Used to reflect secrets across namespaces 
@@ -63,7 +64,8 @@ The steps on how to install the required packages
 1. Install Certificate manager
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The certificate manager here is cert-manager.
+The certificate manager here is cert-manager:
+
 https://cert-manager.io/docs/installation/helm/
 
 .. code:: bash
@@ -108,8 +110,7 @@ Get External IP to link to DNS
 
    kubectl get service/nginx-ingress-ingress-nginx-controller
 
-Take the external-IP of the ingress controller Link your DNS to this
-external IP.
+Take the external-IP of the ingress controller Link your DNS to this external IP.
 
 In Azure, it is possible to apply a dns label to the ingress controller,
 if you do not have a DNS. **Azure DNS Label**
@@ -142,9 +143,8 @@ Define a cluster issuer
 
 Here we define a CLusterIssuer using letsencrypt on the cert-manager
 namespace - move to the directory of the chart helm-governance \*
-uncomment prod_issuer.yaml in templates \* update the
-``{{ .Values.ingress.email_address }}`` in Values file \* Create the
-clusterIssuer with the following command
+uncomment prod_issuer.yaml in templates \* update the ``{{ .Values.ingress.email_address }}`` 
+in Values file \* Create the clusterIssuer with the following command
 
 .. code:: bash
 
