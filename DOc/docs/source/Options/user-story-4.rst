@@ -14,6 +14,8 @@ User Story
 Next to data governance, data quality is another core pillar of data management. 
 Good data quality helps make data more useful and usable, resulting in better business outcomes.
 Meanwhile, bad data quality limits the value of data and results in worse business outcomes. 
+Poor data quality in a source system can, for example, lead to misleading indicators on management dashboards. 
+This can lead to ineffective decision making and a waste of time and resources.
 
 Data quality can be measured in many ways. 
 It is the responsibility of the data governance organisation to define data quality metrics.
@@ -28,7 +30,7 @@ Data quality is typically measured along the following dimensions:
 | Validity     | Whether or not the data fits with a predefined format. For example, a person's initials should always be capitalized.   |
 
 For every dimension, one or more data quality rules can be defined.
-For every rule, a percentage score is assigned. 
+For every rule, a percentage score is calculated by dividing the number of compliant rows over the total number of rows. 
 A score of 100% indicates that the dataset is perfectly compliant with that particular rule.
 
 A lower data quality score for a particular rule indicates that there are data quality issues.
@@ -46,7 +48,9 @@ Aurelius Atlas allows for the discovery and insight of an organisation's data qu
 This allows for better business outcomes for users of data.
 The tool also allows the people responsible for data quality, to do root cause analysis of data quality issues.
 
-The following example demonstrates how data of good quality is discovered by a data scientist.
+The following example demonstrates how data of good quality is discovered by a data engineer.
+The data engineer is starting up a new analysis and is looking for good quality data to use.
+Using the Aurelius Atlas tool, the data engineer finds a candidate dataset and reviews the data quality results.
 
 
 Step by step guide

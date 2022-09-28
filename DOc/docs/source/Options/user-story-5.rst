@@ -27,6 +27,8 @@ All compliant and non-compliant rules are counted. The ratio determines an overa
 This score is shown at the top of every details page.
 
 The following example explains how to review data governance quality from the perspective of a business data steward.
+It is their job to maintain data governance quality for their respective domain.
+A data steward can use the Aurelius Atlas tool to get an overview of potential issues, and then drill down to the details.
 
 Step by step guide
 ------------------
