@@ -13,7 +13,7 @@ User Story
 
 Next to data governance, data quality is another core pillar of data management. 
 Good data quality helps make data more useful and usable, resulting in better business outcomes.
-Meanwhile, bad data quality limits the value of data, and results in worse business outcomes. 
+Meanwhile, bad data quality limits the value of data and results in worse business outcomes. 
 
 Data quality can be measured in many ways. 
 It is the responsibility of the data governance organisation to define data quality metrics.
@@ -35,16 +35,16 @@ A lower data quality score for a particular rule indicates that there are data q
 The impact and consequences of these issues depends on the characteristics of the dataset.
 
 Typically, manually entered data tends to be of lesser quality than automatically generated data.
-Improving the data quality of manually entered data tends to involve the education of people and process improvements.
+Improving the data quality of manually entered data, tends to involve the education of people and process improvements.
 Meanwhile, lower data quality scores for automatically generated data may indicate a bug in the system.
 
 Data quality should be measured at every system where the data is stored, since data transformations can cause data quality to change.
 If there are data quality issues, these should be solved at the point where the data quality issues are introduced.
 This is typically at the place where the master data is stored.
 
-Aurelius Atlas allows for the discovery and insight of your organisation's data quality across data sources.
+Aurelius Atlas allows for the discovery and insight of an organisation's data quality across data sources.
 This allows for better business outcomes for users of data.
-The tool also allows the people responsible for data quality to do root cause analysis of data quality issues.
+The tool also allows the people responsible for data quality, to do root cause analysis of data quality issues.
 
 The following example demonstrates how data of good quality is discovered by a data scientist.
 
