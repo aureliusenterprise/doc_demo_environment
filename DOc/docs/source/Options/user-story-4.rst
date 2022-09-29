@@ -22,7 +22,7 @@ It is the responsibility of the data governance organisation to define data qual
 Data quality is typically measured along the following dimensions:
 
 .. list-table:: 
-    :width: 25 25 50
+    :widths: 25 75
     :header-rows: 1
     
 
