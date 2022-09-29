@@ -11,7 +11,7 @@ User Story
 ----------
 
 In a data analytics project a **data scientist** or **data engineer**
-requires data to answer the business question of the project. The
+requires data to answer the business questions of the project. The
 engineer **does not know exactly which relevant data is available, where
 the data is stored and whom to ask to get access to the data.**
 
