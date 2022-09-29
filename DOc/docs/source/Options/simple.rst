@@ -29,7 +29,8 @@ Simple ways to get your data in
     ``1 – Click on the plus button``
 
 
-    Then a side bar appears, to create an entity
+    Then, a side bar appears enabling you to define the entity
+
 
     .. image:: imgs-simple/2.jpg
 
@@ -42,13 +43,13 @@ Simple ways to get your data in
     .. image:: imgs-simple/9.jpg
 
 
-    ``1 – Entity type: this case is a Data domain.``
+``1 – Entity type: Data domain``
 
-    ``2 – Name.``
+``2 – Name: Equipment``
 
-    ``3 – Definition.``
+``3 – Definition: Data on Plant Equipment``
 
-    ``4 – Domain lead.``
+``4 – Domain lead: Andreas Wombacher``
 
 
     Once the fields are filled in, save and create your entity.
@@ -64,9 +65,12 @@ Simple ways to get your data in
     .. image:: imgs-simple/5.jpg
 
 
-    ``1 – You can fill the name, description and data ownership rule.``
+``1 – You can fill in the domain name, definition, and data domain lead.``
 
-    ``2 – Use to create business data in bulk.``
+``2 – Use the sheet navigate to go to a sheet corresponding to the next model layer.``
+
+An excel data dictionary is a structured excel consisting of several sheets matching the layers of the data governance model: each sheet corresponds to a specific model layer. It is up to fill in the empty positions in the table of each layer. A subset of the table columns in the excel file are inferred automatically making sure that the input data is compliant with the data governance model. Furthermore, the user is advised to follow the hierarchy of the of data governance model starting filling in the sheets subsequentially corresponding to their position in the data governance model layers. This resulting excel data dictionary is required to be compliant with the pre-defined structure of the Aurelius data governance model. A script checks whether compliance is met and fills in the governance model in the application based on the provided information in the excel data dictionary.
+
 
     An excel data dictionary is a structured excel file, consisting of several sheets, matching the layers of the data governance model: each sheet corresponds to a specific model layer. 
     It is suppose to fill in the empty positions in the table of each layer. A subset of the tables columns in the excel file are inferred automatically, making sure that the input data is compliant with the data governance model. 

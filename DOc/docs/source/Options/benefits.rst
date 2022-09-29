@@ -1,7 +1,7 @@
 Benefits of Aurelius Atlas Data Governance Solution
 ===================================================
 
-.. image:: imgs-access/benefits.png
+.. image:: imgs-access/benefits1.png
 
 Data governances establishes a common understanding of the data and how
 it is applied and used by the business.

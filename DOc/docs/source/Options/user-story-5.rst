@@ -1,4 +1,4 @@
-Keep track of your data quality
+Keep track of your data governance quality
 ===============================
 .. _userStory5:
 
@@ -9,6 +9,7 @@ Keep track of your data quality
     .. raw:: html
                 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/q6yFKAfdbSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
     User story
@@ -36,16 +37,18 @@ Keep track of your data quality
 
     Step by step guide
     ------------------
-                
-    Let’s start from the business context card 
+            
+    Let’s start from the business context card
+
+
 
     .. image:: imgs-user-story5/one.jpg
 
-    ``1 – Click on "start browsing data domains".`` 
+    ``1 – Click on "start browsing data domains".``
 
-                
-    On the side of each card in the search, 
-    you can see a little icon that determines if the information about this entity is complete or not. 
+            
+    On the side of each card in the search,
+    you can see a little icon that determines if the information about this entity is complete or not.
 
     .. image:: imgs-user-story5/two.jpg
 
@@ -59,22 +62,30 @@ Keep track of your data quality
 
     .. image:: imgs-user-story5/four.jpg
 
-    Let’s click on Logistics entity 
+    Let’s click on Logistics entity to see why it has a warning.
 
-    .. image:: imgs-user-story5/five.jpg
 
-    Once there let’s go to the Governance Quality Rules
+        .. image:: imgs-user-story5/five.jpg
+
+    Once on the details page, let’s go to the Governance Quality Rules.
+
 
     ``1 - Press on the button.``
 
     ``2 – Select Governance Quality Rules.``
+
 
     .. image:: imgs-user-story5/six.jpg
 
     This indicates to the person responsible if the entity is complete or not, 
     in this example, you see that the data domain has no data entities. 
 
-    **Benefits**  
+    Here are all the data governance rules that are applied to this entity.
+    This indicates to the person responsible that the entity is complete or not.
+    In this example, it can be seen that not all of them are fulfilled and that this data domain has no data entities.
+
+    **Benefits**
+
 
     **1 – See how well data governance has been applied.**
 
