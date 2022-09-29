@@ -21,6 +21,26 @@ Data quality can be measured in many ways.
 It is the responsibility of the data governance organisation to define data quality metrics.
 Data quality is typically measured along the following dimensions:
 
+.. list-table:: 
+    :width: 25 25 50
+    :header-rows: 1
+    
+
+    * - Dimension
+      - Description
+  
+    * - **Accuracy**
+      - Whether or not the data contains errors. For example, a person's name should always be correct.   
+    * - **Completeness**
+      - Whether or not each row of the data has a value. For example, a person should always have a name.   
+    * - **Timeliness**
+      - Whether or not the data is up to date. For example, the data should only include people currently employed.
+    * - **Uniqueness**
+      - Whether or not values that need to be unique, actually are unique. For example, every employee should have a unique ID.
+    * - **Validity**
+      - Whether or not the data fits with a predefined format. For example, a person's initials should always be capitalized.  
+
+
 | Dimension    | Description                                                                                                             |
 |--------------|-------------------------------------------------------------------------------------------------------------------------|
 | Accuracy     | Whether or not the data contains errors. For example, a person's name should always be correct.                         |
