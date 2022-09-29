@@ -1,4 +1,4 @@
-Keep track of your data quality
+Keep track of your data governance quality
 ===============================
 .. _userStory5:
 
@@ -13,7 +13,7 @@ User story
 When applying data management in an organisation, there are a lot of different aspects to consider. 
 The data governance organisation needs to be set up.
 Business and technical data governance models need to be set up.
-And data quality needs to be monitored.
+And data governance quality needs to be monitored.
 
 Keeping an overview of the organisation's progress in all these activities can be a challenge.
 The Aurelius Atlas tool lets key stakeholders monitor the entire progress of the implementation, and the overall data governance quality.
@@ -33,15 +33,15 @@ A data steward can use the Aurelius Atlas tool to get an overview of potential i
 Step by step guide
 ------------------
             
-Let’s start from the business context card 
+Let’s start from the business context card
 
 .. image:: imgs-user-story5/one.jpg
 
-``1 – Click on "start browsing data domains".`` 
+``1 – Click on "start browsing data domains".``
 
             
-On the side of each card in the search, 
-you can see a little icon that determines if the information about this entity is complete or not. 
+On the side of each card in the search,
+you can see a little icon that determines if the information about this entity is complete or not.
 
 .. image:: imgs-user-story5/two.jpg
 
@@ -55,11 +55,11 @@ you can see a little icon that determines if the information about this entity i
 
 .. image:: imgs-user-story5/four.jpg
 
-Let’s click on Logistics entity 
+Let’s click on Logistics entity to see why it has a warning.
 
 .. image:: imgs-user-story5/five.jpg
 
-Once there let’s go to the Governance Quality Rules
+Once on the details page, let’s go to the Governance Quality Rules.
 
 ``1 - Press on the button.``
 
@@ -67,10 +67,11 @@ Once there let’s go to the Governance Quality Rules
 
 .. image:: imgs-user-story5/six.jpg
 
-This indicates to the person responsible if the entity is complete or not, 
-in this example, you see that the data domain has no data entities. 
+Here are all the data governance rules that are applied to this entity.
+This indicates to the person responsible that the entity is complete or not.
+In this example, it can be seen that not all of them are fulfilled and that this data domain has no data entities.
 
-**Benefits**  
+**Benefits**
 
 **1 – See how well data governance has been applied.**
 

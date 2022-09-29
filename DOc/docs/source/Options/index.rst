@@ -14,6 +14,13 @@ Aurelius Atlas is an open-source solution, that can be used free under
 the Elastic V2 license agreement.
 
 
+Directly access the Demo environment here:
+.. raw:: html
+
+     <a href="https://aureliusdev.westeurope.cloudapp.azure.com/demo/atlas/" target="_blank">Link to Demo Environment</a>
+
+
+
 
 .. toctree::
       :maxdepth: 1
