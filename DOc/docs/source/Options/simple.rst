@@ -2,11 +2,19 @@ Simple ways to get your data in
 ===============================
 .. _simple:
 
-
-
-You can experience the user stories by yourself :ref:`Clicking here<indexStory>`.  
+You can experience the user stories by yourself :ref:`clicking here<indexStory>`.  
 The demo environment is read-only, thus you will not be able to modify or create concepts yourself.  
-There are three ways to get data into the solution: 
+Aurelius Atlas provides several ways to get meta data in the application dependent on the use case of the user:
+
+1.	Creating Entities manually in the front end
+2.	Use an excel data dictionary that can bulk push multiple entities at once
+3.	Use the Lineage REST API that can be connected directly with a script or infrastructure
+
+An authorized data expert, e.g., that intends to simply change a certain definition of an existing attribute is better suited to apply this change via the front end. 
+However, a data steward that intends to load a set of data dictionaries covering a certain data base is better off providing this documentation in an excel data dictionary. 
+Furthermore, Aurelius Atlas provides a REST API (Lineage REST API) to establish a direct connection with the back-end. 
+This can be used to push technical data that is automatically collected from the IT infrastructure by applying a scan or reading the files. 
+
 
 **1.Creating Entities manually in the front end.**
 --------------------------------------------------
@@ -17,15 +25,17 @@ There are three ways to get data into the solution:
 ``1 – Click on the plus button``
 
 
-Then appears a side page, to create the entity
+Then appears a side bar, to create the entity
 
 .. image:: imgs-simple/2.jpg
 
 
-Let’s have a close look at the creation entity page
+Let’s have a close look on how to create an entity
 
 
-.. image:: imgs-simple/8.jpg
+
+
+.. image:: imgs-simple/9.jpg
 
 
 ``1 – Entity type: this case is a Data domain.``
@@ -35,8 +45,6 @@ Let’s have a close look at the creation entity page
 ``3 – Definition.``
 
 ``4 – Domain lead.``
-
-``5 – Save button.``
 
 
 Once the fields are filled in, you save and have your entity created.
@@ -56,8 +64,10 @@ Once the fields are filled in, you save and have your entity created.
 
 ``2 – Use to create business data in bulk.``
 
+An excel data dictionary is a structured excel consisting of several sheets matching the layers of the data governance model: each sheet corresponds to a specific model layer. It is up to fill in the empty positions in the table of each layer. A subset of the table columns in the excel file are inferred automatically making sure that the input data is compliant with the data governance model. Furthermore, the user is advised to follow the hierarchy of the of data governance model starting filling in the sheets subsequentially corresponding to their position in the data governance model layers. This resulting excel data dictionary is required to be compliant with the pre-defined structure of the Aurelius data governance model. A script checks whether compliance is met and fills in the governance model in the application based on the provided information in the excel data dictionary.
 
-**3.Use the Lineage REST API that can be connected to directly with a  script or infrastructure.**
+
+**3.Use the Lineage REST API that can be connected directly with a  script or infrastructure.**
 --------------------------------------------------------------------------------------------------
 
 
@@ -76,7 +86,7 @@ In this image, you can see the swagger documentation of the Lineage REST API.
 .. image:: imgs-simple/6.jpg
 
 
-Extending an option you can see the expected payload or body that can be sent to the Lineage REST API to create the Generic Process Entity.
+Extending an option, you can see the expected payload or body that can be sent to the Lineage REST API to create the Generic Process Entity.
 
 
 .. image:: imgs-simple/7.jpg

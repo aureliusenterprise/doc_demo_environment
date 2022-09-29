@@ -1,15 +1,11 @@
-Find data fast and observed quality metrics
-===========================================
+Find data fast and observe quality metrics
+==========================================
 .. _userStory4:
 
+..
+    .. raw:: html
 
-.. raw:: html
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/QBZ80l5jpvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-User Story
-----------
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QBZ80l5jpvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Next to data governance, data quality is another core pillar of data management. 
 Good data quality helps make data more useful and usable, resulting in better business outcomes.
@@ -53,76 +49,78 @@ The data engineer is starting up a new analysis and is looking for good quality 
 Using the Aurelius Atlas tool, the data engineer finds a candidate dataset and reviews the data quality results.
 
 
-Step by step guide
-------------------
 
-.. image:: imgs-user-story4/firts.jpg
+    Step by step guide
+    ------------------
 
-
-
-``1 - Data quality.``
-
-``2 – Press on the button.``
-
-``3 - Selec Fields.``
-
-
-Here we can see the quality of each field and identify where the quality is not up to standar.
-
-.. image:: imgs-user-story4/third.jpg
-
-If your project only requires **FTE** and **location** fields in which the quality is high, 
-you can ignore the lower quality of the unrelated fields.
-
-.. image:: imgs-user-story4/fourth.jpg
-
-However, if you require the **HIER ORGANIZATION** field, 
-you can notice that the precision is low.
-
-.. image:: imgs-user-story4/fifth.jpg
+    .. image:: imgs-user-story4/firts.jpg
 
 
 
-.. image:: imgs-user-story4/six.jpg
+    ``1 - Data quality.``
 
-Let’s go to the Data Quality Rules
+    ``2 – Press on the button.``
 
-``1 - Press on the button.``
-
-``2 – Select Data Quality Rules.``
+    ``3 - Selec Fields.``
 
 
-You can see that the syntax of the field is not always being followed.
+    Here we can see the quality of each field and identify where the quality is not up to standard.
 
-.. image:: imgs-user-story4/seven.jpg
+        
+    .. image:: imgs-user-story4/third.jpg
 
-With this information, you can now understand the limitations of the dataset.
+    If your project only requires **FTE** and **location** fields in which the quality is high, 
+    you can ignore the lower quality of the unrelated fields.
 
-Let’s go to the Data Attributes
+    .. image:: imgs-user-story4/fourth.jpg
 
-``1 - Press on the button.``
+    However, if you require the **HIER ORGANIZATION** field, 
+    you can notice that the precision is low.
 
-``2 – Select Data Attributes.``
+    .. image:: imgs-user-story4/fifth.jpg
 
-.. image:: imgs-user-story4/eigth.jpg
 
-As you can see in this picture
 
-.. image:: imgs-user-story4/nine.jpg
+    .. image:: imgs-user-story4/six.jpg
 
-``1 - Name and results.``
+    Let’s go to the Data Quality Rules
 
-``2 - Filter and search bar.``
+    ``1 - Press on the button.``
 
-``3 - Attributes.``
+    ``2 – Select Data Quality Rules.``
 
-``4 - People in charge of this data.``
 
-This way, your data is always updated and you're guaranteed better quality, 
-because you can know who oversees it and ask them to clean it up.
+    You can see that the syntax of the field is not always being followed.
 
-**Benefits**
+    .. image:: imgs-user-story4/seven.jpg
 
-**1 – Great insight into data quality.**
+    With this information, you can now understand the limitations of the dataset.
 
-**2 – Easy to find the person in charge of the data.**
+    Let’s go to the Data Attributes
+
+    .. image:: imgs-user-story4/eigth.jpg
+
+    ``1 - Press on the button.``
+
+    ``2 – Select Data Attributes.``
+
+    As you can see in this picture:
+
+    .. image:: imgs-user-story4/nine.jpg
+
+    ``1 - Name and results.``
+
+    ``2 - Filter and search bar.``
+
+    ``3 - Attributes.``
+
+    ``4 - People in charge of this data.``
+
+    This way, your data is always updated and you're guaranteed better quality, 
+    because you can know who oversees it and ask them to clean it up.
+
+    **Benefits**
+
+    **1 – Great insight into data quality.**
+
+    **2 – Easy to find the person in charge of the data.**

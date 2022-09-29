@@ -2,14 +2,13 @@ Keep track of your data quality
 ===============================
 .. _userStory5:
 
-
- .. raw:: html
-        
+..
+            
     <iframe width="560" height="315" src="https://www.youtube.com/embed/q6yFKAfdbSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-User story
-----------
+    User story
+    ----------
 
 When applying data management in an organisation, there are a lot of different aspects to consider. 
 The data governance organisation needs to be set up.
@@ -30,50 +29,51 @@ The following example explains how to review data governance quality from the pe
 It is their job to maintain data governance quality for their respective domain.
 A data steward can use the Aurelius Atlas tool to get an overview of potential issues, and then drill down to the details.
 
-Step by step guide
-------------------
-    
-Let’s start from the business context card 
 
-.. image:: imgs-user-story5/one.jpg
+    Step by step guide
+    ------------------
+            
+    Let’s start from the business context card 
 
-``1 – Click on start browsing data domains.`` 
+    .. image:: imgs-user-story5/one.jpg
 
-    
-On the side of each card in the search, 
-you can see a little icon that determines if the information about this entity is complete or not. 
+    ``1 – Click on "start browsing data domains".`` 
 
-.. image:: imgs-user-story5/two.jpg
+            
+    On the side of each card in the search, 
+    you can see a little icon that determines if the information about this entity is complete or not. 
 
-``1 - Data type.``
+    .. image:: imgs-user-story5/two.jpg
 
-``2 -  This checkmark means the entity is fully populated.``
+    ``1 - Data type.``
 
-.. image:: imgs-user-story5/three.jpg
+    ``2 -  This checkmark means the entity is fully populated.``
 
-``2 - This warning symbol means that the entity is not filled.``
+    .. image:: imgs-user-story5/three.jpg
 
-.. image:: imgs-user-story5/four.jpg
+    ``2 - This warning symbol means that the entity is not filled.``
 
-Let’s click on Logistics entity 
+    .. image:: imgs-user-story5/four.jpg
 
-.. image:: imgs-user-story5/five.jpg
+    Let’s click on Logistics entity 
 
-Once there let’s go to the Governance Quality Rules
+    .. image:: imgs-user-story5/five.jpg
 
-``1 - Press on the button.``
+    Once there let’s go to the Governance Quality Rules
 
-``2 – Select Governance Quality Rules.``
+    ``1 - Press on the button.``
 
-.. image:: imgs-user-story5/six.jpg
+    ``2 – Select Governance Quality Rules.``
 
-This indicates to the person responsible if the entity is complete or not, 
-in this example, you see that the data domain has no data entities. 
+    .. image:: imgs-user-story5/six.jpg
 
-**Benefits**  
+    This indicates to the person responsible if the entity is complete or not, 
+    in this example, you see that the data domain has no data entities. 
 
-**1 – See how well data governance has been applied.**
+    **Benefits**  
 
-**2 – Control about your data.**
+    **1 – See how well data governance has been applied.**
 
-**3  – Empower business decisions.**
+    **2 – Control your data.**
+
+    **3  – Empower business decisions.**
