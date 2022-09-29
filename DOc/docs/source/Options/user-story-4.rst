@@ -11,34 +11,34 @@ Find data fast and observe quality metrics
 User story
 ----------
 
-Next to data governance, data quality is another core pillar of data management. 
-Good data quality helps make data more useful and usable, resulting in better business outcomes.
+Next to data governance, data quality is another core pillar of data management.
+Good data quality helps make data more useful, reliable and usable, resulting in better business outcomes.
 Meanwhile, bad data quality limits the value of data and results in worse business outcomes. 
 Poor data quality in a source system can, for example, lead to misleading indicators on management dashboards. 
-This can lead to ineffective decision making and a waste of time and resources.
+This can lead to ineffective decision making, a waste of time and resources.
 
 Data quality can be measured in many ways. 
 It is the responsibility of the data governance organisation to define data quality metrics.
 Data quality is typically measured along the following dimensions:
 
-.. list-table:: 
+.. list-table::
     :widths: 25 75
     :header-rows: 1
-    
+
 
     * - Dimension
       - Description
-  
+
     * - **Accuracy**
-      - Whether or not the data contains errors. For example, a person's name should always be correct.   
+      - Whether or not the data contains errors. For example, a person's name should always be correct.
     * - **Completeness**
-      - Whether or not each row of the data has a value. For example, a person should always have a name.   
+      - Whether or not each row of the data has a value. For example, a person should always have a name.
     * - **Timeliness**
       - Whether or not the data is up to date. For example, the data should only include people currently employed.
     * - **Uniqueness**
       - Whether or not values that need to be unique, actually are unique. For example, every employee should have a unique ID.
     * - **Validity**
-      - Whether or not the data fits with a predefined format. For example, a person's initials should always be capitalized.  
+      - Whether or not the data fits with a predefined format. For example, a person's initials should always be capitalized.
 
 
 
@@ -69,6 +69,8 @@ Using the Aurelius Atlas tool, the data engineer finds a candidate dataset and r
 Step by step guide
 ------------------
 
+The data engineer knows the dataset they want to use and goes directly to its details page.
+
 .. image:: imgs-user-story4/firts.jpg
 
 
@@ -77,7 +79,7 @@ Step by step guide
 
 ``2 – Press on the button.``
 
-``3 - Selec Fields.``
+``3 - Select Fields.``
 
 
 Here we can see the quality of each field and identify where the quality is not up to standard.
@@ -85,13 +87,13 @@ Here we can see the quality of each field and identify where the quality is not 
         
 .. image:: imgs-user-story4/third.jpg
 
-If your project only requires **FTE** and **location** fields in which the quality is high, 
-you can ignore the lower quality of the unrelated fields.
+If the data engineers project only requires **FTE** and **location** fields in which the quality is high,
+they can ignore the lower quality of the unrelated fields. As these will not be used by them.
 
 .. image:: imgs-user-story4/fourth.jpg
 
-However, if you require the **HIER ORGANIZATION** field, 
-you can notice that the precision is low.
+However, if the data engineer require the **HIER ORGANIZATION** field,
+it can be noticed that the accuracy is low. To understand what this means the data engineer can go to the details page of the field.
 
 .. image:: imgs-user-story4/fifth.jpg
 
@@ -99,18 +101,21 @@ you can notice that the precision is low.
 
 .. image:: imgs-user-story4/six.jpg
 
+Once on the details page they can navigate to the data quality rules.
+
 Let’s go to the Data Quality Rules
 
 ``1 - Press on the button.``
 
 ``2 – Select Data Quality Rules.``
 
-
-You can see that the syntax of the field is not always being followed.
+Here all the rules that are applied to this field can be seen, along with their score.
+It can be seen that the syntax of the field is not always being followed, which resulted in the lower quality score of this field.
 
 .. image:: imgs-user-story4/seven.jpg
 
-With this information, you can now understand the limitations of the dataset.
+With this information, the data engineer can now understand the limitations of the dataset.
+To understand what this means from a business perspective and to find out who can solve the quality issues, the data engineer can navigate to the data attributes.
 
 Let’s go to the Data Attributes
 
@@ -132,11 +137,14 @@ As you can see in this picture:
 
 ``4 - People in charge of this data.``
 
-This way, your data is always updated and you're guaranteed better quality, 
-because you can know who oversees it and ask them to clean it up.
+From here the data engineer can now understand what the field means and knows who to contact to improve to the data quality of this field.
+
+This way, your data is always updated and you're guaranteed better quality, because you can know who oversees it and ask them to clean it up.
 
 **Benefits**
 
 **1 – Great insight into data quality.**
 
 **2 – Easy to find the person in charge of the data.**
+
+**3 – Know what quality measures are being applied.**
