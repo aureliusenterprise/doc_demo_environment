@@ -90,7 +90,7 @@ Navigate to the Lineage model:
 .. image:: imgs-user-story2/fourth.jpg 
 
 
-Once in the Lineage model, you see a lineage to which the entity belongs to. Where it is in the lineage, where it comes from and where it flows to.
+The lineage model shows the position of the entity in the data flow. It also clarifies where the data comes from and where the data flows to.
 In this case we see that the entity **NL1-HR-001** is a source dataset that is used and processed in the organization.
 
 To get the details of each entity in the lineage model, click on the icon of the image to open the detail panel on the right hand side.

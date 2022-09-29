@@ -37,7 +37,7 @@ are provided.
 
 To illustrate the process of finding relevant information, the location
 of the data and the accountable person, the following scenario is
-described: A data engineer is working on a HR project investigating the
+described: A data engineer is working on an HR project investigating the
 use case of **permanent employees**. To answer the related business
 questions, they need data about employees in the organization.
 
