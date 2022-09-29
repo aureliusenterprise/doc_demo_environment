@@ -6,7 +6,7 @@ Keep track of your data governance quality
                 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/q6yFKAfdbSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+ 
 User story
 ----------
 
@@ -83,4 +83,4 @@ In this example, it can be seen that not all of them are fulfilled and that this
 
 **2 – Control your data.**
 
-**3  – Empower business decisions.**
+**3  – Empower business decisions.**   
