@@ -4,7 +4,7 @@ Keep track of your data quality
 
 **COMING SOON** 
 
-.. image:: imgs-acess/404.jpg
+.. image:: imgs-access/404.jpg
 
 ..
     .. raw:: html
