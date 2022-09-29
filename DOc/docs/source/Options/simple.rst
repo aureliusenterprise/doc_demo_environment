@@ -25,7 +25,7 @@ Let’s have a close look on how to create an entity
 
 
 
-.. image:: imgs-simple/8.jpg
+.. image:: imgs-simple/9.jpg
 
 
 ``1 – Entity type: this case is a Data domain.``
@@ -35,8 +35,6 @@ Let’s have a close look on how to create an entity
 ``3 – Definition.``
 
 ``4 – Domain lead.``
-
-``5 – Save button.``
 
 
 Once the fields are filled in, you save and have your entity created.
