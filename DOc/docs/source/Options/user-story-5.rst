@@ -2,18 +2,14 @@ Keep track of your data quality
 ===============================
 .. _userStory5:
 
-**COMING SOON** 
 
-.. image:: imgs-acess/404.jpg
-
-..
-    .. raw:: html
+.. raw:: html
             
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/q6yFKAfdbSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/q6yFKAfdbSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-    User story
-    ----------
+User story
+----------
 
     What is Lorem Ipsum?
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -32,50 +28,50 @@ Keep track of your data quality
     
 
 
-    Step by step guide
-    ------------------
+Step by step guide
+------------------
         
-    Let’s start from the business context card 
+Let’s start from the business context card 
 
-    .. image:: imgs-user-story5/one.jpg
+.. image:: imgs-user-story5/one.jpg
 
-    ``1 – Click on "start browsing data domains".`` 
+``1 – Click on "start browsing data domains".`` 
 
         
-    On the side of each card in the search, 
-    you can see a little icon that determines if the information about this entity is complete or not. 
+On the side of each card in the search, 
+you can see a little icon that determines if the information about this entity is complete or not. 
 
-    .. image:: imgs-user-story5/two.jpg
+.. image:: imgs-user-story5/two.jpg
 
-    ``1 - Data type.``
+``1 - Data type.``
 
-    ``2 -  This checkmark means the entity is fully populated.``
+``2 -  This checkmark means the entity is fully populated.``
 
-    .. image:: imgs-user-story5/three.jpg
+.. image:: imgs-user-story5/three.jpg
 
-    ``2 - This warning symbol means that the entity is not filled.``
+``2 - This warning symbol means that the entity is not filled.``
 
-    .. image:: imgs-user-story5/four.jpg
+.. image:: imgs-user-story5/four.jpg
 
-    Let’s click on Logistics entity 
+Let’s click on Logistics entity 
 
-    .. image:: imgs-user-story5/five.jpg
+.. image:: imgs-user-story5/five.jpg
 
-    Once there let’s go to the Governance Quality Rules
+Once there let’s go to the Governance Quality Rules
 
-    ``1 - Press on the button.``
+``1 - Press on the button.``
 
-    ``2 – Select Governance Quality Rules.``
+``2 – Select Governance Quality Rules.``
 
-    .. image:: imgs-user-story5/six.jpg
+.. image:: imgs-user-story5/six.jpg
 
-    This indicates to the person responsible if the entity is complete or not, 
-    in this example, you see that the data domain has no data entities. 
+This indicates to the person responsible if the entity is complete or not, 
+in this example, you see that the data domain has no data entities. 
 
-    **Benefits**  
+**Benefits**  
 
-    **1 – See how well data governance has been applied.**
+**1 – See how well data governance has been applied.**
 
-    **2 – Control your data.**
+**2 – Control your data.**
 
-    **3  – Empower business decisions.**
+**3  – Empower business decisions.**
