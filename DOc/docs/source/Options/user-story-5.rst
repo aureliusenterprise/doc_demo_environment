@@ -2,11 +2,6 @@ Keep track of your data quality
 ===============================
 .. _userStory5:
 
-
-**COMING SOON** 
-
-.. image:: imgs-access/404.jpg
-
 ..
             
     <iframe width="560" height="315" src="https://www.youtube.com/embed/q6yFKAfdbSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -15,21 +10,24 @@ Keep track of your data quality
     User story
     ----------
 
-        What is Lorem Ipsum?
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        orem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
-        like Aldus PageMaker including versions of Lorem Ipsum.
+When applying data management in an organisation, there are a lot of different aspects to consider. 
+The data governance organisation needs to be set up.
+Business and technical data governance models need to be set up.
+And data quality needs to be monitored.
 
-        Why do we use it?
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
-        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', 
-        making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 
-        'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose 
-        (injected humour and the like).
-        
+Keeping an overview of the organisation's progress in all these activities can be a challenge.
+The Aurelius Atlas tool lets key stakeholders monitor the entire progress of the implementation, and the overall data governance quality.
+It also allows for better decision making on where to focus for the next improvement. 
+
+Every entity in Aurelius Atlas is checked against various data governance quality rules.
+The result of this check is available at the bottom of every details page, as well as an indicator in the search results.
+An entity can either be compliant with a rule, or not.
+All compliant and non-compliant rules are counted. The ratio determines an overall data governance quality score.
+This score is shown at the top of every details page.
+
+The following example explains how to review data governance quality from the perspective of a business data steward.
+It is their job to maintain data governance quality for their respective domain.
+A data steward can use the Aurelius Atlas tool to get an overview of potential issues, and then drill down to the details.
 
 
     Step by step guide
