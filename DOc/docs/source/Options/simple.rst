@@ -10,7 +10,10 @@ Aurelius Atlas provides several ways to get meta data in the application depende
 2.	Use an excel data dictionary that can bulk push multiple entities at once
 3.	Use the Lineage REST API that can be connected directly with a script or infrastructure
 
-An authorized data expert, e.g., that intends to simply change a certain definition of an existing attribute is better suited to apply this change via the front end. However, a data steward that intends to load a set of data dictionaries covering a certain data base is better off providing this documentation in an excel data dictionary. Furthermore, Aurelius Atlas provides a REST API (Lineage REST API) to establish a direct connection with the back-end. This can be used to push technical data that is automatically collected from the IT infrastructure by applying a scan or reading the files. 
+An authorized data expert, e.g., that intends to simply change a certain definition of an existing attribute is better suited to apply this change via the front end. 
+However, a data steward that intends to load a set of data dictionaries covering a certain data base is better off providing this documentation in an excel data dictionary. 
+Furthermore, Aurelius Atlas provides a REST API (Lineage REST API) to establish a direct connection with the back-end. 
+This can be used to push technical data that is automatically collected from the IT infrastructure by applying a scan or reading the files. 
 
 
 **1.Creating Entities manually in the front end.**
