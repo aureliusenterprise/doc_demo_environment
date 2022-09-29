@@ -56,24 +56,23 @@ You can search for the table **NL1-HR-001** in the technical context
 .. image:: imgs-user-story2/first.jpg 
 
 
-You get a list of results, lets click on the called **NL1-HR-001**
+You get a list of results, lets click on the entity called **NL1-HR-001**
 
 
 .. image:: imgs-user-story2/second.jpg 
 
 
-As you can see in the detail page of the dataset, you have all
-these elements:
+You are now on the details page of the dataset **NL1-HR-001**. Here you can see the following elements:
 
 
 .. image:: imgs-user-story2/third.jpg 
 
 
-``1. – Name and type of the dataset.``
+``1. – Name and type of the entity.``
 
-``2. – Hierarchy: Where it is located inside the system.``
+``2. – Breadcrumb: Showing the hierarchy of the entity.``
 
-``3. – Description.``
+``3. – Description of the entity.``
 
 ``4. – Summary of all the elements of the page.``
 
@@ -81,7 +80,7 @@ these elements:
 
 ``6. - Button to navigate through each section quickly.``
 
-To find the Lineage model:
+Navigate to the Lineage model:
 
 ``1. – Click on the button.``
 
@@ -91,14 +90,16 @@ To find the Lineage model:
 .. image:: imgs-user-story2/fourth.jpg 
 
 
-Once in the Lineage model, you click on the source to see the detail
-page.
+Once in the Lineage model, you see a lineage to which the entity belongs to. Where it is in the lineage, where it comes from and where it flows to.
+In this case we see that the entity **NL1-HR-001** is a source dataset that is used and processed in the organization.
+
+To get the details of each entity in the lineage model, click on the icon of the image to open the detail panel on the right hand side.
 
 
 .. image:: imgs-user-story2/fifth.jpg 
 
 
-In this detail page you can find all the information about the data, and
+In this detail panel you can find all the information about the data, and
 how it's being used.
 
 Here is an overview of the elements on the detail page:
@@ -113,22 +114,21 @@ Here is an overview of the elements on the detail page:
 
 .. image:: imgs-user-story2/six.jpg 
 
-Let’s follow the flow of the data, if you click on the next square
-called **Change-event**, you can see how this data was changed to a Kafka
-topic.
+Let’s follow the flow of the data, if you click on the next entity
+called **Change-event**, you can see how the data is changed to a **Kafka
+topic**.
 
 .. image:: imgs-user-story2/seven.jpg 
 
 
-If you click on the next one, you can see that this Kafka topic was
+If you click on the next entity, you can see that this Kafka topic was
 converted into an **Elastic index**.
 
 .. image:: imgs-user-story2/eigth.jpg 
 
-With the lineage graphs you’re able to see where the data is going, this
-is not limited to a particular system but it is across different
-applications in which we are tracking the governance information.
-
+With the lineage graph you are able to see where the data is going and where it comes from.
+This is not limited to a particular system but it is across different applications and environments in which we are tracking the governance information.
+Following these steps, the implementer can learn where the data is being used and what subsequent processing can be effected by extending the schema.
 
 **Benefits**
 
