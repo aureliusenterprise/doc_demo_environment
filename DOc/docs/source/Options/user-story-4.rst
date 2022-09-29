@@ -4,7 +4,7 @@ Find data fast and observe quality metrics
 
 **COMING SOON.....**
 
-.. image:: imgs/404.jpg
+.. image:: imgs-access/404.jpg
 ..
   .. raw:: html
 

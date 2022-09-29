@@ -3,7 +3,7 @@ How to deploy Aurelius Atlas
 
 **COMING SOON.....**
 
-.. image:: imgs/404.jpg
+.. image:: imgs-access/404.jpg
 ..
    Welcome to the Aurelius Atlas solution powered by Apache Atlas! Aurelius
    Atlas is an open-source Data Governance solution, based on a selection

@@ -4,7 +4,7 @@ Simple ways to get your data in
 
 **COMING SOON.....**
 
-.. image:: imgs/404.jpg
+.. image:: imgs-access/404.jpg
 ..
     You can experience the user stories by yourself :ref:`clicking here<indexStory>`.  
     The demo environment is read-only, thus you will not be able to modify or create concepts yourself.  
