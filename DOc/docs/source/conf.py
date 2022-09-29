@@ -30,5 +30,5 @@ exclude_patterns = []
 #alabaster is the other theme
 html_theme = "sphinx_rtd_theme"
 html_static_path = ['_static']
-html_logo = '_static/logo/logo1.png'
+html_logo = '_static/logo/logo-white.png'
 html_favicon = '_static/favicon/fav.png'
