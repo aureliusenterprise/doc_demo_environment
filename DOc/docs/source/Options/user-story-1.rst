@@ -18,7 +18,7 @@ the data is stored and whom to ask to get access to the data.**
 In an organization without data governance tooling in place, the person
 will start contacting various people, asking for the availability of
 data, where the data is stored and how they can get access to the data.
-The longer you are in an organization and the more people you know the
+The longer you are in an organization and the more people you know, the
 easier the task. Anyhow, **it will take a long time**. Even when you have
 found the right data, and found the accountable person to provide
 access, you must sit with the owner of the data to get a good
@@ -26,8 +26,8 @@ explanation of the meaning of the different fields. For engineers with a
 smaller network in the organization the task will be even more tedious
 and time consuming.
 
-**Aurelius Atlas makes the information on which data is available, where
-it is stored and who is accountable for it, which
+**Aurelius Atlas makes the information on what data is available, where
+it is stored and who is accountable for it, readily accessible, which
 results in quicker access to relevant data.**
 
 With the **Aurelius Atlas solution you can easily search for the meaning
@@ -37,7 +37,7 @@ are provided.
 
 To illustrate the process of finding relevant information, the location
 of the data and the accountable person, the following scenario is
-described: A data engineer is working in an HR project investigating the
+described: A data engineer is working on an HR project investigating the
 use case of **permanent employees**. To answer the related business
 questions, they need data about employees in the organization.
 
@@ -48,7 +48,8 @@ business context of the application they are entering the search term
 
 Step by step guide
 ------------------
-
+Open Aurelius Atlas application and in the business context enter the search term
+**“employee”** into the search bar.
 
 .. image:: imgs-user-story/first.jpg 
 
@@ -56,14 +57,13 @@ Step by step guide
 
 ``1 – The context that you are working on.``
 
-``2 - More information about the context.``
+``2 - Click here to get more details about the context.``
 
-``3 – Looking for the meaning of data.``
+``3 – Search bar of the context``
 
 
-By hitting the search icon, you will get a list of possible concepts.
-
-As you can see in the screenshot below:
+By hitting the search icon, you will get a list of results related to the searched term **“employee”**.
+As seen in the screenshot below:
 
 .. image:: imgs-user-story/second.jpg 
 
@@ -73,27 +73,23 @@ As you can see in the screenshot below:
 
 ``2 – Results of the search.``
 
-The data engineer is not looking for specific fields, but for
-entities representing employees, thus they filter those results on
-**data entities** to be more concrete. Applying
-the filter reduces the result to 4 entities as depicted below.
+In this case as the data engineer, you are not looking for specific fields, but for
+entities representing employees, thus you can drill down and filter the results on
+**data entities**. Applying the filter reduces the result to 4 entities as depicted below.
 
 
 .. image:: imgs-user-story/third.jpg 
 
-Filtering reduced the number of results. The result set is now small
-enough to go through it one by one. Comparing the entity **“Personnel”
-and “Internal”** by looking at the breadcrumb indicates that the
+The result set is now small enough to go through it one by one. Comparing the entity **“Personnel”
+and “Internal”** by looking at the breadcrumb. The breadcrumbs indicate that the
 concept **Internal** is a child entity of the entity **Personnel.**
 
 .. image:: imgs-user-story/fourth.jpg 
 
+In this example the data engineer is interested in permanent employees, therefore the entity "Internal” is selected.
 
-
-Since the data engineer is interested in permanent employees, they
-select the entity "Internal”.
-
-Thus, all details of the entity “Internal” are shown as depicted
+Clicking on a result takes you to the details of the entity.
+By selecting the entity "Internal" all details of the entity “Internal” are shown as depicted
 below.
 
 .. image:: imgs-user-story/fifth.jpg 
@@ -111,14 +107,14 @@ below.
 
 ``6. Button to navigate through each section quickly.``
 
+Looking at the people responsible for the data, you can see that the Business Owner of the data is **Merel Hofman**.
+To get access to the data, you need to ask permission from Merel.
 
-Now you can see that the Business Owner of the data is **Merel Hofman,**
-to get access to the data, you need to ask permission from
-Merel. The data engineer still does not know where the data is
+The data engineer now knows who to contact for access to the data but still does not know where the data is
 stored.
 
-In the summary of the page you can see that there’s one place where
-the data is technically stored, it’s called a **Dataset**.
+In the summary of the page under **Dataset** it can be seen that there’s one place where
+the data is technically stored.
 
 .. image:: imgs-user-story/six.jpg 
 
@@ -136,7 +132,7 @@ Let’s go to this section, to see where the data are stored:
 .. image:: imgs-user-story/eigth.jpg 
 
 
-Here you can see an overview of where your data is stored:
+Here you can see an overview of where the data is stored:
 
 .. image:: imgs-user-story/nine.jpg 
 
@@ -150,7 +146,7 @@ Here you can see an overview of where your data is stored:
 
 ``5 – Type of storage.``
 
-The data engineer can see that the data is stored in a database table
+The data engineer can look at the breadcrumb and see that the data is stored in a database table
 called **NL1-HR-001**, which resides in a database called **NL1-HR**, which is
 located on a system called **NL1**.
 
