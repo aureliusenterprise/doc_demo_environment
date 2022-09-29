@@ -14,5 +14,5 @@ Use the link below to sign in or :ref:`click here<indexStory>` to learn more abo
 
 **A Gmail account is needed to Sign in.**
 
-.. image:: imgs-acess/login.jpg
+.. image:: imgs-access/login.jpg
 
