@@ -1,9 +1,10 @@
-Cross data platform data governance
+Cross platform data governance
 ===================================
 .. _userStory3:
 
 User story 
 ----------
+
 An organisation's application landscape often consist of solutions from different vendors, potentially using a combination of different clouds and on premise solutions.
 The data governance solutions of the different cloud providers focus on data governance of their specific solutions.
 Thus, for the organization it is very difficult to get an overview of the available data and the related data flows across the different solutions and platforms. 
@@ -14,9 +15,9 @@ While a data catalog purpose is to provide an overview of available data in syst
 By using Aurelius Atlas, data governance information from various independent systems can be collected and their data flows can be related. 
 This way, Aurelius Atlas becomes the *google* for the organizations data management.
 
-To illustrate the process of finding relevant information across various system the following scenario is used:
-As implementer of data pipeline, you want to update schema of a particular table,
-so you want to know who is using the data and where are this different data being used to make sure that they also adjust their schema and the subsequent pipelines. 
+To illustrate the process of finding relevant information across various systems, the following scenario is described:
+As an implementer of data pipeline, you want to update the schema of a particular table.
+So you want to know who is using the data and where are this different data being used to make sure that they also adjust their schema and the subsequent pipelines. 
 
 Step by step guide
 ------------------
@@ -73,14 +74,14 @@ All data is consistently recorded across the different environments in **Aureliu
 .. image:: imgs-user-story3/5.jpg
 
 
-Let’s click on **hr**, to see specific information related to this entity
+Let’s click on **hr**(3), to see specific information related to this entity:
 
 .. image:: imgs-user-story3/6.jpg
 
 
 ``1 – hr entity.``
 
-``2 – specific information about this entity.``
+``2 – Specific information about this entity.``
 
  
 
