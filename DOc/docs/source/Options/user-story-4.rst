@@ -88,19 +88,25 @@ Here we can see the quality of each field and identify where the quality is not 
           
 .. image:: imgs-user-story4/third.jpg
 
+
 If your project only requires **FTE** and **location** fields in which the quality is high, 
 you can ignore the lower quality of the unrelated fields.
 
+
   .. image:: imgs-user-story4/fourth.jpg
+
 
 However, if you require the **HIER ORGANIZATION** field, 
 you can notice that the precision is low.
+
 
   .. image:: imgs-user-story4/fifth.jpg
 
 
 
+
   .. image:: imgs-user-story4/six.jpg
+
 
 
 Once on the details page they can navigate to the data quality rules.
@@ -119,13 +125,16 @@ It can be seen that the syntax of the field is not always being followed, which 
 
   .. image:: imgs-user-story4/seven.jpg
 
+
 With this information, the data engineer can now understand the limitations of the dataset.
 To understand what this means from a business perspective and to find out who can solve the quality issues, the data engineer can navigate to the data attributes.
 
 
 Let’s go to the Data Attributes
 
+
   .. image:: imgs-user-story4/eigth.jpg
+    
 
   ``1 - Press on the button.``
 
@@ -133,7 +142,9 @@ Let’s go to the Data Attributes
 
 As you can see in this picture:
 
+
   .. image:: imgs-user-story4/nine.jpg
+
 
   ``1 - Name and results.``
 
