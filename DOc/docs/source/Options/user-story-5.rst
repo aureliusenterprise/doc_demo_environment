@@ -39,7 +39,7 @@ Let’s start from the business context card
 .. image:: imgs-user-story5/one.jpg
 
 
-    ``1 – Click on "start browsing data domains".``
+``1 – Click on "start browsing data domains".``
 
                 
 On the side of each card in the search, 
@@ -48,15 +48,15 @@ you can see a little icon that determines if the information about this entity i
 .. image:: imgs-user-story5/two.jpg
 
 
-    ``1 - Data type.``
+``1 - Data type.``
 
-    ``2 -  This checkmark means the entity is fully populated.``
+``2 -  This checkmark means the entity is fully populated.``
 
 
 .. image:: imgs-user-story5/three.jpg
 
 
-    ``2 - This warning symbol means that the entity is not filled.``
+``2 - This warning symbol means that the entity is not filled.``
 
 
 .. image:: imgs-user-story5/four.jpg
@@ -71,9 +71,9 @@ Let’s click on Logistics entity to see why it has a warning.
  Once on the details page, let’s go to the Governance Quality Rules.
 
 
-    ``1 - Press on the button.``
+``1 - Press on the button.``
 
-    ``2 – Select Governance Quality Rules.``
+``2 – Select Governance Quality Rules.``
 
 
 .. image:: imgs-user-story5/six.jpg
