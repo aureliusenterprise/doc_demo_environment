@@ -68,7 +68,7 @@ Let’s click on Logistics entity to see why it has a warning.
 .. image:: imgs-user-story5/five.jpg
 
 
- Once on the details page, let’s go to the Governance Quality Rules.
+Once on the details page, let’s go to the Governance Quality Rules.
 
 
 ``1 - Press on the button.``
