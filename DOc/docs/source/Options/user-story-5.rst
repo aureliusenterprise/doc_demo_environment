@@ -52,9 +52,7 @@ you can see a little icon that determines if the information about this entity i
 
 ``2 -  This checkmark means the entity is fully populated.``
 
-
 .. image:: imgs-user-story5/three.jpg
-
 
 ``2 - This warning symbol means that the entity is not filled.``
 

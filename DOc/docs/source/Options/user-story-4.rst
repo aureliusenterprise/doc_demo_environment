@@ -46,7 +46,7 @@ For every rule, a percentage score is calculated by dividing the number of compl
 A score of 100% indicates that the dataset is perfectly compliant with that particular rule.
 
 A lower data quality score for a particular rule indicates that there are data quality issues.
-  The impact and consequences of these issues depends on the characteristics of the dataset.
+The impact and consequences of these issues depends on the characteristics of the dataset.
 
 Typically, manually entered data tends to be of lesser quality than automatically generated data.
 Improving the data quality of manually entered data, tends to involve the education of people and process improvements.
@@ -75,11 +75,11 @@ The data engineer knows the dataset they want to use and goes directly to its de
 
 
 
-  ``1 - Data quality.``
+``1 - Data quality.``
 
-  ``2 – Press on the button.``
+``2 – Press on the button.``
 
-  ``3 - Select Fields.``
+``3 - Select Fields.``
 
 
 
@@ -93,20 +93,18 @@ If your project only requires **FTE** and **location** fields in which the quali
 you can ignore the lower quality of the unrelated fields.
 
 
-  .. image:: imgs-user-story4/fourth.jpg
+.. image:: imgs-user-story4/fourth.jpg
 
 
 However, if you require the **HIER ORGANIZATION** field, 
 you can notice that the precision is low.
 
 
-  .. image:: imgs-user-story4/fifth.jpg
+.. image:: imgs-user-story4/fifth.jpg
 
 
 
-
-  .. image:: imgs-user-story4/six.jpg
-
+.. image:: imgs-user-story4/six.jpg
 
 
 Once on the details page they can navigate to the data quality rules.
@@ -114,16 +112,16 @@ Once on the details page they can navigate to the data quality rules.
 Let’s go to the Data Quality Rules
 
 
-  ``1 - Press on the button.``
+``1 - Press on the button.``
 
-  ``2 – Select Data Quality Rules.``
+``2 – Select Data Quality Rules.``
 
 
 Here all the rules that are applied to this field can be seen, along with their score.
 It can be seen that the syntax of the field is not always being followed, which resulted in the lower quality score of this field.
 
 
-  .. image:: imgs-user-story4/seven.jpg
+.. image:: imgs-user-story4/seven.jpg
 
 
 With this information, the data engineer can now understand the limitations of the dataset.
@@ -133,26 +131,25 @@ To understand what this means from a business perspective and to find out who ca
 Let’s go to the Data Attributes
 
 
-  .. image:: imgs-user-story4/eigth.jpg
-    
+.. image:: imgs-user-story4/eigth.jpg
 
-  ``1 - Press on the button.``
 
-  ``2 – Select Data Attributes.``
+``1 - Press on the button.``
+
+``2 – Select Data Attributes.``
 
 As you can see in this picture:
 
 
-  .. image:: imgs-user-story4/nine.jpg
+.. image:: imgs-user-story4/nine.jpg
 
+``1 - Name and results.``
 
-  ``1 - Name and results.``
+``2 - Filter and search bar.``
 
-  ``2 - Filter and search bar.``
+``3 - Attributes.``
 
-  ``3 - Attributes.``
-
-  ``4 - People in charge of this data.``
+``4 - People in charge of this data.``
 
 
 From here the data engineer can now understand what the field means and knows who to contact to improve to the data quality of this field.
