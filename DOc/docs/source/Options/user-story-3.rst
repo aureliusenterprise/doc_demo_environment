@@ -99,6 +99,7 @@ to access it, let’s click on the last event of the **lineage model**.
 ``3 - Kibana dashboard.`` 
 
 
+
 With this information the implementer is able to follow the lineage across multiple cloud solutions consistently across.
 
 **Benefits**

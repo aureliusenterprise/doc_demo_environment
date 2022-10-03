@@ -35,7 +35,9 @@ Step by step guide
                 
 Let’s start from the business context card 
 
+
 .. image:: imgs-user-story5/one.jpg
+
 
 ``1 – Click on "start browsing data domains".``
 
@@ -45,6 +47,7 @@ you can see a little icon that determines if the information about this entity i
 
 .. image:: imgs-user-story5/two.jpg
 
+
 ``1 - Data type.``
 
 ``2 -  This checkmark means the entity is fully populated.``
@@ -53,12 +56,15 @@ you can see a little icon that determines if the information about this entity i
 
 ``2 - This warning symbol means that the entity is not filled.``
 
+
 .. image:: imgs-user-story5/four.jpg
+
 
 Let’s click on Logistics entity to see why it has a warning.
 
 
 .. image:: imgs-user-story5/five.jpg
+
 
 Once on the details page, let’s go to the Governance Quality Rules.
 
@@ -67,7 +73,9 @@ Once on the details page, let’s go to the Governance Quality Rules.
 
 ``2 – Select Governance Quality Rules.``
 
+
 .. image:: imgs-user-story5/six.jpg
+
 
 This indicates to the person responsible if the entity is complete or not, 
 in this example, you see that the data domain has no data entities. 

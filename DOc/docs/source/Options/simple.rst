@@ -23,13 +23,13 @@ This can be used to push technical data that is automatically collected from the
 .. image:: imgs-simple/1.jpg
 
 
-    ``1 – Click on the plus button``
+``1 – Click on the plus button``
 
 
 Then, a side bar appears enabling you to define the entity
 
 
-    .. image:: imgs-simple/2.jpg
+.. image:: imgs-simple/2.jpg
 
 
 Let’s have a close look on how to create an entity
@@ -40,13 +40,13 @@ Let’s have a close look on how to create an entity
 .. image:: imgs-simple/9.jpg
 
 
-    ``1 – Entity type: Data domain``
+``1 – Entity type: Data domain``
 
-    ``2 – Name: Equipment``
+``2 – Name: Equipment``
 
-    ``3 – Definition: Data on Plant Equipment``
+``3 – Definition: Data on Plant Equipment``
 
-    ``4 – Domain lead: Andreas Wombacher``
+``4 – Domain lead: Andreas Wombacher``
 
 
 Once the fields are filled in, save and create your entity.
@@ -62,9 +62,10 @@ Once the fields are filled in, save and create your entity.
 .. image:: imgs-simple/5.jpg
 
 
-    ``1 – You can fill in the domain name, definition, and data domain lead.``
+``1 – You can fill in the domain name, definition, and data domain lead.``
 
-    ``2 – Use the sheet navigate to go to a sheet corresponding to the next model layer.``
+``2 – Use the sheet navigate to go to a sheet corresponding to the next model layer.``
+
 
 An excel data dictionary is a structured excel file, consisting of several sheets, matching the layers of the data governance model: each sheet corresponds to a specific model layer. 
 It is suppose to fill in the empty positions in the table of each layer. A subset of the tables columns in the excel file are inferred automatically, making sure that the input data is compliant with the data governance model. 

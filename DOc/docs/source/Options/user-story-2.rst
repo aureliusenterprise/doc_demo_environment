@@ -82,12 +82,12 @@ You are now on the details page of the dataset **NL1-HR-001**. Here you can see 
 
 Navigate to the Lineage model:
 
+
+.. image:: imgs-user-story2/fourth.jpg 
+
 ``1. – Click on the button.``
 
 ``2 – Click on Lineage Model``
-
-
-.. image:: imgs-user-story2/fourth.jpg 
 
 
 The lineage model shows the position of the entity in the data flow. It also clarifies where the data comes from and where the data flows to.
