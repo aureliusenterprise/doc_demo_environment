@@ -5,10 +5,7 @@ Managing data pipelines with full lineage
 
 .. raw:: html
 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/gt-NzPn5KCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-.. raw:: html
-    <br/>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Cn5AIWFbZDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 User story
