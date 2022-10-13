@@ -238,7 +238,7 @@
 .. -- bash cd init ./init_jobs.sh ## To Load the Sample Demo Data  ./load_sample_data.sh``
 
 
-How to deploy Aurelius Atlas
+How to deploy Aurelius Atlas (/new)
 ============================
 
 Welcome to the Aurelius Atlas solution powered by Apache Atlas! Aurelius
