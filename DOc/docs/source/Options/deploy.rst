@@ -1,4 +1,4 @@
-How to deploy Aurelius Atlas    aaaa
+How to deploy Aurelius Atlas  
 ============================
 
 Welcome to the Aurelius Atlas solution powered by Apache Atlas! Aurelius
@@ -149,7 +149,7 @@ comment out prod_issuer.yaml in templates Check that it is running:
 
 It is running when Ready is True.
 
-.. figure:: img.png
+.. figure:: imgs-how-to-deploy/img.png
    :alt: img.png
 
    img.png
@@ -177,7 +177,7 @@ comment out certificate.yaml in templates Check that it is approved.
 
 It is running when Ready is True
 
-.. figure:: img_1.png
+.. figure:: imgs-how-to-deploy/img_1.png
    :alt: img_1.png
 
    img_1.png
