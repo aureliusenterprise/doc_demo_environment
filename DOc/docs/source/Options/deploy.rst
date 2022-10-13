@@ -29,29 +29,39 @@ https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-access-for-kubect
 
 follow steps in Installation Instructions
 
-Installation Instructions
+Installation Requeriments
 -------------------------
 
-This installation assumes that you have: - a kubernetes cluster running
-- with 2 Node of CPU 4 and 16GB - kubectl installed - Chosen cloud Cli
-installed (gcloud or az) - A Domain Name Space - Not necessary for Azure
+This installation assumes that you have: 
+- a kubernetes cluster running
+    - with 2 Node of CPU 4 and 16GB 
+    - kubectl installed 
+- Chosen cloud Cli installed (gcloud or az) 
+    - A Domain Name Space 
+    -  Not necessary for Azure
 
 Required Packages
 -----------------
 
-The deployment requires the following packages: - Certificate Manager -
-To handel and manage the creation of certificates - Used in demo:
-cert-manager - Ingress Controller - Used to create an entry point to the
-cluster through an external IP. - Used in demo: Nginx Controller -
-Elastic - Used to deploy elastic on the kubernetes cluster - In order to
-deploy elastic, ``Elastic Cluster on Kubernetes (ECK)`` must be
+The deployment requires the following packages: 
+- Certificate Manager 
+    - To handel and manage the creation of certificates 
+    - Used in demo: cert-manager 
+- Ingress Controller 
+    - Used to create an entry point to thecluster through an external IP. 
+    - Used in demo: Nginx Controller 
+- Elastic 
+    - Used to deploy elastic on the kubernetes cluster 
+    - In order to deploy elastic, ``Elastic Cluster on Kubernetes (ECK)`` must be
 installed on the cluster. To install ECK on the cluster, please follow
 the instructions provided on
 https://www.elastic.co/guide/en/cloud-on-k8s/master/k8s-deploy-eck.html
-- For more details about this elastic helm chart look at `elastic
-readme <./charts/elastic/README.md>`__ - Reflector - Used to reflect
-secrets across namespaces - Used in demo to share the DNS certificate to
-different namespace
+
+    - For more details about this elastic helm chart look at `elastic
+readme <./charts/elastic/README.md>`__ 
+- Reflector 
+    - Used to reflect secrets across namespaces 
+    - Used in demo to share the DNS certificate to different namespace
 
 The steps on how to install the required packages
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
