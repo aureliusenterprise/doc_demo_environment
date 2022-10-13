@@ -104,6 +104,9 @@ https://cert-manager.io/docs/installation/helm/
 Get Ingress Controller External IP to link to DNS
 -------------------------------------------------
 
+Only do this if your ingress controller does not already have a DNS applied. 
+In the case of Azure this is not necessary, other possible instructions can be found below in Azure DNS Label
+
 Get External IP to link to DNS
 ''''''''''''''''''''''''''''''
 
@@ -134,20 +137,21 @@ Under Annotations add the following providing your desire label :
 
    service.beta.kubernetes.io/azure-dns-label-name: <label>
 
-Save and exit. Resulting DSN will be
-``<label>.westeurope.cloudapp.azure.com``
+Save and exit. Resulting DSN will be ``<label>.westeurope.cloudapp.azure.com``
 
-Certify DNS to Secret
----------------------
+Put ssl certificate in a Secret
+-------------------------------
 
 Define a cluster issuer
 '''''''''''''''''''''''
 
 Here we define a CLusterIssuer using letsencrypt on the cert-manager
-namespace - move to the directory of the chart helm-governance \*
-uncomment prod_issuer.yaml in templates \* update the
-``{{ .Values.ingress.email_address }}`` in Values file \* Create the
-clusterIssuer with the following command
+namespace
+
+ - move to the directory of the chart helm-governance 
+ - uncomment prod_issuer.yaml in templates 
+ - update the ``{{ .Values.ingress.email_address }}`` in Values file 
+ - Create the clusterIssuer with the following command
 
 .. code:: bash
 
@@ -166,8 +170,8 @@ It is running when Ready is True.
 
 
 
-Create certificate for DSN
-''''''''''''''''''''''''''
+Create ssl certificate for DSN
+''''''''''''''''''''''''''''''
 
 -  Assumes you have a DNS linked to the external IP of the ingress
    controller
@@ -231,6 +235,32 @@ usernames and randomized passwords.
 
    ./get_passwords.sh <namespace>
 
+The above command scans the given <namespace> and prints the usernames and randomized passwords as follows:
+
+.. code:: bash
+
+   keycloak admin user pwd:
+   username: admin
+   vntoLefBekn3L767
+   ----
+   keycloak Atlas admin user pwd:
+   username: atlas
+   QUVTj1QDKQWZpy27
+   ----
+   keycloak Atlas data steward user pwd:
+   username: steward
+   XFlsi25Nz9h1VwQj
+   ----
+   keycloak Atlas data user pwd:
+   username: scientist
+   PPv57ZvKHwxCUZOG
+   ==========
+   elasticsearch elastic user pwd:
+   username: elastic
+   446PL2F2UF55a19haZtihRm5
+   ----
+
+
 Check that all pods are running
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -238,8 +268,7 @@ Check that all pods are running
 
    kubectl -n <namespace> get all # check that all pods are running
 
-Atlas is now accessible via reverse proxy at
-``<DNS-url>/<namespace>/atlas/``
+Atlas is now accessible via reverse proxy at ``<DNS-url>/<namespace>/atlas/``
 
 Initialize the Atlas flink tasks and optionally load sample data
 ----------------------------------------------------------------
@@ -253,4 +282,10 @@ Init Jobs:
 - Create the Atlas Users in Keycloak 
 - Create the App Search Engines in Elastic
 
-``bash ${1} kubectl -n <namespace> exec -it <pod/flink-jobmanager-pod-name> -- bash cd init ./init_jobs.sh ## To Load the Sample Demo Data  ./load_sample_data.sh``
+.. code:: bash
+
+   kubectl -n <namespace> exec -it <pod/flink-jobmanager-pod-name> -- bash
+   cd init
+   ./init_jobs.sh
+   ## To Load the Sample Demo Data 
+   ./load_sample_data.sh
