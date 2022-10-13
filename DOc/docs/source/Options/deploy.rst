@@ -172,6 +172,7 @@ It is running when Ready is True.
 
 Create ssl certificate for DSN
 ''''''''''''''''''''''''''''''
+This is needed if you installed letsencrypt from the required packages.
 
 -  Assumes you have a DNS linked to the external IP of the ingress
    controller
