@@ -146,10 +146,12 @@ Define a cluster issuer
 '''''''''''''''''''''''
 
 Here we define a CLusterIssuer using letsencrypt on the cert-manager
-namespace - move to the directory of the chart helm-governance \*
-uncomment prod_issuer.yaml in templates \* update the
-``{{ .Values.ingress.email_address }}`` in Values file \* Create the
-clusterIssuer with the following command
+namespace
+
+ - move to the directory of the chart helm-governance 
+ - uncomment prod_issuer.yaml in templates 
+ - update the ``{{ .Values.ingress.email_address }}`` in Values file 
+ - Create the clusterIssuer with the following command
 
 .. code:: bash
 
