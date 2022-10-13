@@ -164,7 +164,7 @@ It is running when Ready is True.
 .. figure:: imgs-how-to-deploy/img.png
    :alt: img.png
 
-   img.png
+
 
 Create certificate for DSN
 ''''''''''''''''''''''''''
@@ -192,7 +192,6 @@ It is running when Ready is True
 .. figure:: imgs-how-to-deploy/img_1.png
    :alt: img_1.png
 
-   img_1.png
 
 Deploy Aurelius Atlas
 ---------------------
