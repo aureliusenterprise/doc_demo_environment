@@ -237,6 +237,7 @@
 .. ``bash ${1} kubectl -n <namespace> exec -it <pod/flink-jobmanager-pod-name>
 .. -- bash cd init ./init_jobs.sh ## To Load the Sample Demo Data  ./load_sample_data.sh``
 
+
 How to deploy Aurelius Atlas
 ============================
 
