@@ -7,11 +7,11 @@ of open-source tools to facilitate business users to access governance
 information in an easy consumable way and meet the data governance
 demands of the distributed data world.
 A detailed description of the underlying technical aspects of the solution and the how to deploy it
-in different environments is described in the `technical manual <>`__
+in different environments is described in the technical manual.
 
 
 Getting started
-===============
+---------------
 
 Welcome to the Aurelius Atlas solution powered by Apache Atlas! Aurelius
 Atlas is an open-source Data Governance solution, based on a selection
@@ -20,7 +20,7 @@ information in an easy consumable way and meet the data governance
 demands of the distributed data world.
 
 Google Setup Instructions
-=========================
+-------------------------
 
 Install Gcloud https://cloud.google.com/sdk/docs/install#deb
 
@@ -30,7 +30,7 @@ https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-access-for-kubect
 follow steps in Installation Instructions
 
 Installation Instructions
-=========================
+-------------------------
 
 This installation assumes that you have: - a kubernetes cluster running
 - with 2 Node of CPU 4 and 16GB - kubectl installed - Chosen cloud Cli
@@ -183,7 +183,7 @@ It is running when Ready is True
    img_1.png
 
 Deploy Aurelius Atlas
-=====================
+---------------------
 
 -  Create the namespace
 -  Update the Values file
