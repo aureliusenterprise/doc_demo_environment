@@ -33,10 +33,11 @@ Installation Requeriments
 -------------------------
 
 This installation assumes that you have: 
-- a kubernetes cluster running
+
+ - a kubernetes cluster running
     - with 2 Node of CPU 4 and 16GB 
     - kubectl installed 
-- Chosen cloud Cli installed (gcloud or az) 
+ - Chosen cloud Cli installed (gcloud or az) 
     - A Domain Name Space 
     -  Not necessary for Azure
 
@@ -44,22 +45,22 @@ Required Packages
 -----------------
 
 The deployment requires the following packages: 
-- Certificate Manager 
+
+ - Certificate Manager 
     - To handel and manage the creation of certificates 
     - Used in demo: cert-manager 
-- Ingress Controller 
+ - Ingress Controller 
     - Used to create an entry point to thecluster through an external IP. 
     - Used in demo: Nginx Controller 
-- Elastic 
+ - Elastic 
     - Used to deploy elastic on the kubernetes cluster 
     - In order to deploy elastic, ``Elastic Cluster on Kubernetes (ECK)`` must be
 installed on the cluster. To install ECK on the cluster, please follow
 the instructions provided on
 https://www.elastic.co/guide/en/cloud-on-k8s/master/k8s-deploy-eck.html
 
-    - For more details about this elastic helm chart look at `elastic
-readme <./charts/elastic/README.md>`__ 
-- Reflector 
+    - For more details about this elastic helm chart look at `elastic readme <./charts/elastic/README.md>`__ 
+ - Reflector 
     - Used to reflect secrets across namespaces 
     - Used in demo to share the DNS certificate to different namespace
 
@@ -214,8 +215,13 @@ Users with Randomized Passwords
 In the helm chart 5 base users are created with randomized passwords
 stored as secrets on kubernetes.
 
-The 5 base users are: 1. Keycloak Admin User 2. Atlas Admin User 3.
-Atlas Data Steward User 4. Atlas Data User 5. Elastic User
+The 5 base users are: 
+
+1. Keycloak Admin User 
+2. Atlas Admin User 
+3. Atlas Data Steward User 
+4. Atlas Data User 
+5. Elastic User
 
 To get the randomized passwords out of kubernetes there is a bash script
 get_passwords. Which scans the given ``<namespace>`` and prints the
@@ -238,10 +244,13 @@ Atlas is now accessible via reverse proxy at
 Initialize the Atlas flink tasks and optionally load sample data
 ----------------------------------------------------------------
 
-Flink: - For more details about this flink helm chart look at `flink
-readme <./charts/flink/README.md>`__
+Flink: 
 
-Init Jobs: - Create the Atlas Users in Keycloak - Create the App Search
-Engines in Elastic
+- For more details about this flink helm chart look at `flink readme <./charts/flink/README.md>`__
+
+Init Jobs: 
+
+- Create the Atlas Users in Keycloak 
+- Create the App Search Engines in Elastic
 
 ``bash ${1} kubectl -n <namespace> exec -it <pod/flink-jobmanager-pod-name> -- bash cd init ./init_jobs.sh ## To Load the Sample Demo Data  ./load_sample_data.sh``
