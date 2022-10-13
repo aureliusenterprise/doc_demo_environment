@@ -54,11 +54,7 @@ The deployment requires the following packages:
     - Used in demo: Nginx Controller 
  - Elastic 
     - Used to deploy elastic on the kubernetes cluster 
-    - In order to deploy elastic, ``Elastic Cluster on Kubernetes (ECK)`` must be
-installed on the cluster. To install ECK on the cluster, please follow
-the instructions provided on
-https://www.elastic.co/guide/en/cloud-on-k8s/master/k8s-deploy-eck.html
-
+    - In order to deploy elastic, ``Elastic Cluster on Kubernetes (ECK)`` must beinstalled on the cluster. To install ECK on the cluster, please followthe instructions provided on https://www.elastic.co/guide/en/cloud-on-k8s/master/k8s-deploy-eck.html
     - For more details about this elastic helm chart look at `elastic readme <./charts/elastic/README.md>`__ 
  - Reflector 
     - Used to reflect secrets across namespaces 
@@ -119,7 +115,11 @@ Take the external-IP of the ingress controller Link your DNS to this
 external IP.
 
 In Azure, it is possible to apply a dns label to the ingress controller,
-if you do not have a DNS. #### Azure DNS Label
+if you do not have a DNS. 
+
+Azure DNS Label
+---------------
+
 https://hovermind.com/azure-kubernetes-service/applying-dns-label-to-the-service.html
 Edit the ingress controller deployment
 
