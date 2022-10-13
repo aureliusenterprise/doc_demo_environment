@@ -121,6 +121,7 @@ Azure DNS Label
 ---------------
 
 https://hovermind.com/azure-kubernetes-service/applying-dns-label-to-the-service.html
+
 Edit the ingress controller deployment
 
 .. code:: bash
