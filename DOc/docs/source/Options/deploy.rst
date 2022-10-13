@@ -1,4 +1,4 @@
-How to deploy Aurelius Atlas
+How to deploy Aurelius Atlas 
 ============================
 
 Welcome to the Aurelius Atlas solution powered by Apache Atlas! Aurelius
