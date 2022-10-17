@@ -10,16 +10,6 @@ A detailed description of the underlying technical aspects of the solution and t
 in different environments is described in the technical manual.
 
 
-
-Getting started
----------------
-
-Welcome to the Aurelius Atlas solution powered by Apache Atlas! Aurelius
-Atlas is an open-source Data Governance solution, based on a selection
-of open-source tools to facilitate business users to access governance
-information in an easy consumable way and meet the data governance
-demands of the distributed data world.
-
 The solutions is provided as a helmchart, theses charts can be found in the following `helm-governance repository <https://github.com/aureliusenterprise/helm-governance>`__
 
 follow steps in Installation Instructions
