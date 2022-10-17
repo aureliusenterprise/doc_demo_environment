@@ -21,11 +21,13 @@ This installation assumes that you have:
 - a kubernetes cluster running
   - with 2 Node of CPU 4 and 16GB
 - Chosen cloud Cli installed 
+
   - `gcloud <https://cloud.google.com/sdk/docs/install#deb>`__
   
   - `az <https://learn.microsoft.com/en-us/cli/azure/install-azure-cli>`__
   
 - kubectl installed and linked to chosen cloud Cli
+
   - `gcloud linked <https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-access-for-kubectl#gcloud>`__
   
   - `az linked <https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-cli#connect-to-the-cluster>`__
