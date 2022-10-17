@@ -10,36 +10,31 @@ A detailed description of the underlying technical aspects of the solution and t
 in different environments is described in the technical manual.
 
 
-Getting started
----------------
-
-Welcome to the Aurelius Atlas solution powered by Apache Atlas! Aurelius
-Atlas is an open-source Data Governance solution, based on a selection
-of open-source tools to facilitate business users to access governance
-information in an easy consumable way and meet the data governance
-demands of the distributed data world.
-
-Google Setup Instructions
--------------------------
-
-Install Gcloud https://cloud.google.com/sdk/docs/install#deb
-
-Install kubectl and configure to work with gloud
-https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-access-for-kubectl#gcloud
+The solutions is provided as a helmchart, theses charts can be found in the following `helm-governance repository <https://github.com/aureliusenterprise/helm-governance>`__
 
 follow steps in Installation Instructions
 
-Installation Requeriments
+Installation Requirements
 -------------------------
 
-This installation assumes that you have: 
+This installation assumes that you have:
+- a kubernetes cluster running
+  - with 2 Node of CPU 4 and 16GB
+- Chosen cloud Cli installed 
 
- - a kubernetes cluster running
-    - with 2 Node of CPU 4 and 16GB 
-    - kubectl installed 
- - Chosen cloud Cli installed (gcloud or az) 
-    - A Domain Name Space 
-    -  Not necessary for Azure
+  - `gcloud <https://cloud.google.com/sdk/docs/install#deb>`__
+  
+  - `az <https://learn.microsoft.com/en-us/cli/azure/install-azure-cli>`__
+  
+- kubectl installed and linked to chosen cloud Cli
+
+  - `gcloud linked <https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-access-for-kubectl#gcloud>`__
+  
+  - `az linked <https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-cli#connect-to-the-cluster>`__
+  
+- A DomainName
+
+  - Not necessary for Azure
 
 Required Packages
 -----------------
